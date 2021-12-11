@@ -7,6 +7,7 @@
 		/obj/item/clothing/under/rank/scientist,
 		/obj/item/clothing/suit/storage/toggle/labcoat,
 		/obj/item/clothing/shoes/white,
+		/obj/item/clothing/head/beret/science,
 		/obj/item/device/radio/headset/headset_sci,
 		/obj/item/weapon/tank/air,
 		/obj/item/clothing/mask/gas,

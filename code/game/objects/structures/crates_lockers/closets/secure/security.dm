@@ -29,11 +29,11 @@
 		/obj/item/device/radio/headset/heads/hop,
 		/obj/item/device/radio/headset/heads/hop/alt,
 		/obj/item/weapon/storage/box/ids = 2,
-		///obj/item/weapon/gun/energy/gun, //YW Edit,
+		/obj/item/weapon/gun/energy/gun, //YW Edit,
 		/obj/item/weapon/gun/energy/gun/martin, //VOREStation Add,
 		/obj/item/weapon/storage/box/commandkeys, //VOREStation Add,
 		/obj/item/weapon/storage/box/servicekeys, //VOREStation Add,
-		///obj/item/weapon/gun/projectile/sec/flash, //VOREStation Removal,
+		/obj/item/weapon/gun/projectile/sec/flash, //VOREStation Removal,
 		/obj/item/device/flash)
 
 /obj/structure/closet/secure_closet/hop2

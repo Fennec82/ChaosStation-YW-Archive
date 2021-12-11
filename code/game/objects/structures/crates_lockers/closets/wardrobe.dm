@@ -222,6 +222,7 @@
 		/obj/item/clothing/suit/storage/toggle/labcoat/modern = 3,
 		/obj/item/clothing/shoes/white = 3,
 		/obj/item/clothing/shoes/slippers = 3,
+		/obj/item/clothing/head/beret/science = 3,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/science,
 		/obj/item/clothing/shoes/boots/winter/science,
 		/obj/item/weapon/storage/backpack/toxins,
@@ -249,6 +250,8 @@
 		/obj/item/clothing/suit/storage/toggle/labcoat = 2,
 		/obj/item/clothing/shoes/black = 2,
 		/obj/item/clothing/gloves/black = 2,
+		/obj/item/clothing/suit/storage/hooded/wintercoat/science/robotics = 2,
+		/obj/item/clothing/head/beret/science/robotics = 2,
 		/obj/item/weapon/storage/backpack/toxins,
 		/obj/item/weapon/storage/backpack/satchel/tox)
 
@@ -270,7 +273,9 @@
 		/obj/item/clothing/under/rank/chemist/skirt = 2,
 		/obj/item/clothing/shoes/white = 2,
 		/obj/item/clothing/suit/storage/toggle/labcoat/chemist = 2,
+		/obj/item/clothing/suit/storage/hooded/wintercoat/medical/chemist = 2,
 		/obj/item/weapon/storage/backpack/chemistry = 2,
+		/obj/item/clothing/head/beret/medical/chem = 2,
 		/obj/item/weapon/storage/backpack/satchel/chem = 2,
 		/obj/item/weapon/storage/bag/chemistry = 2,)
 
@@ -298,6 +303,8 @@
 		/obj/item/clothing/shoes/white = 2,
 		/obj/item/clothing/suit/storage/toggle/labcoat/virologist = 2,
 		/obj/item/clothing/mask/surgical = 2,
+		/obj/item/clothing/suit/storage/hooded/wintercoat/medical/viro = 2,
+		/obj/item/clothing/head/beret/medical/viro = 2,
 		/obj/item/weapon/storage/backpack/virology = 2,
 		/obj/item/weapon/storage/backpack/satchel/vir = 2)
 
@@ -320,6 +327,7 @@
 		/obj/item/clothing/head/surgery/blue,
 		/obj/item/clothing/head/surgery/green,
 		/obj/item/clothing/head/surgery/black,
+		/obj/item/clothing/head/beret/medical = 2,
 		/obj/item/clothing/shoes/white = 2,
 		/obj/item/clothing/suit/storage/toggle/labcoat = 2,
 		/obj/item/clothing/mask/surgical = 2,

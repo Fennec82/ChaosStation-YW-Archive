@@ -36,6 +36,7 @@
 		/obj/item/clothing/suit/storage/toggle/labcoat/modern,
 		/obj/item/clothing/suit/storage/toggle/fr_jacket,
 		/obj/item/clothing/shoes/white,
+		/obj/item/clothing/head/beret/medical,
 		/obj/item/weapon/cartridge/medical,
 		/obj/item/device/radio/headset/headset_med,
 		/obj/item/device/radio/headset/headset_med/alt,
