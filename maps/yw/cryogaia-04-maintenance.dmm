@@ -16141,6 +16141,7 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
+/obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "jVi" = (
@@ -25099,6 +25100,7 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 10
 	},
+/obj/machinery/chem_master,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "pjY" = (
@@ -29680,7 +29682,7 @@
 /turf/simulated/floor,
 /area/maintenance/dorm)
 "saC" = (
-/obj/machinery/chemical_dispenser/full,
+/obj/machinery/chemical_dispenser/biochemistry/full,
 /obj/structure/table/reinforced,
 /obj/machinery/camera/network/medbay{
 	c_tag = "Medbay Chemistry"
@@ -38082,6 +38084,7 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 5
 	},
+/obj/item/device/reagent_scanner/adv,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "xdj" = (
@@ -39044,7 +39047,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/pool)
 "xCk" = (
-/obj/machinery/chemical_dispenser/full,
+/obj/machinery/chemical_dispenser/ert,
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/beige/full{
 	dir = 1
