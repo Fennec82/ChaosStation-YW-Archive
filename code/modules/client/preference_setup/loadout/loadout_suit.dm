@@ -404,7 +404,7 @@
 /datum/gear/suit/wintercoat/medical/sar
 	display_name = "winter coat, search and rescue"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/medical/sar
-	allowed_roles = list("Chief Medical Officer", "Field Medic")
+	allowed_roles = list("Chief Medical Officer", "Field Medic", "Paramedic")
 
 /datum/gear/suit/wintercoat/science
 	display_name = "winter coat, science"
