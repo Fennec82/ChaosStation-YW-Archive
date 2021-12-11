@@ -1,7 +1,7 @@
 /world
 
 	hub = "Exadv1.spacestation13"
-	hub_password = "kMZy3U5jJHSiBQjr"
+	hub_password = "SORRYNOPASSWORDYEET"
 	name = "Space Station 13"
 	/*YW EDIT we want to be on the hub
 	name = "VOREStation" //VOREStation Edit
