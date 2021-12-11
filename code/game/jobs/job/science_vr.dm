@@ -4,10 +4,10 @@
 	dept_time_required = 60
 
 	access = list(access_rd, access_heads, access_tox, access_genetics, access_morgue,
-			            access_tox_storage, access_teleporter,
+			            access_tox_storage, access_teleporter, access_medical, access_medical_equip,
 			            access_research, access_robotics, access_xenobiology, access_ai_upload, access_tech_storage,
 			            access_RC_announce, access_keycard_auth, access_tcomsat, access_gateway, access_xenoarch, access_eva, access_network,
-			            access_explorer, access_pathfinder, access_xenobotany) //YW Edit access_gateway, _explorer, _pathfinder, and _xenobotany
+			            access_explorer, access_pathfinder, access_xenobotany,access_psychiatrist, access_chemistry, access_virology) //YW Edit access_gateway, _explorer, _pathfinder, and _xenobotany //CS edit -Medical access
 	minimal_access = list(access_rd, access_heads, access_tox, access_genetics, access_morgue,
 			            access_tox_storage, access_teleporter,
 			            access_research, access_robotics, access_xenobiology, access_ai_upload, access_tech_storage,
