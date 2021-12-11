@@ -1,12 +1,12 @@
-# Yawn-Wider
+# Chaosstation - YW
 
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/compatibility-club-penguin.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
 
-[Website (we dont have one)](https://www.youtube.com/watch?v=oHg5SJYRHA0) - [Forums](https://yawn-widerstation.proboards.com/) - [Wiki](https://yawn.izac.live/index.php?title=Main_Page) - [Discord](https://discord.gg/Wh27EAY)
+[Website (we dont have one)](https://www.youtube.com/watch?v=oHg5SJYRHA0) - [Forums (we dont have one)] - [Wiki](https://yawn.izac.live/index.php?title=Main_Page) - [Discord (we dont have one)]
 
 Going to make a Pull Request? Make sure you read the [CONTRIBUTING.md](.github/CONTRIBUTING.md) first!
 
-Yawn-Wider is a fork of the VOREStation code branch which is a fork of the Polaris code branch, itself a fork of the Baystation12 code branch, for the game Space Station 13.
+ChaosStation - YW  is a fork of the Yawn-Wider code branch which is a fork of the VOREStation code branch which is a fork of the Polaris code branch, itself a fork of the Baystation12 code branch, for the game Space Station 13.
 
 ![Render Nanomaps](https://github.com/VOREStation/VOREStation/workflows/Render%20Nanomaps/badge.svg)
 
