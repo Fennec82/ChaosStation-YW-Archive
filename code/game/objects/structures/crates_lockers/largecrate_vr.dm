@@ -75,7 +75,7 @@
 //						/mob/living/simple_mob/otie/red,
 						/mob/living/simple_mob/vore/aggressive/corrupthound))
 	return ..()
-/*
+
 /obj/structure/largecrate/animal/guardbeast
 	name = "VARMAcorp autoNOMous security solution"
 	desc = "The VARMAcorp bioengineering division flagship product on trained optimal snowflake guard dogs."
@@ -114,7 +114,7 @@
 		icon_state = "otiecrate"
 		taped = 0
 	..()
-*/ //VORESTATION AI REMOVAL, Oties are still fucking broken.
+ //VORESTATION AI REMOVAL, Oties are still fucking broken. //Bull. -Fenneccommie82
 
 /obj/structure/largecrate/animal/catgirl
 	name = "Catgirl Crate"

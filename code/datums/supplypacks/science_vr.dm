@@ -1,5 +1,5 @@
-/*
-/datum/supply_pack/sci/dune_buggy
+
+/*/datum/supply_pack/sci/dune_buggy
 	name = "Exploration Dune Buggy"
 	contains = list(
 			/obj/vehicle/train/rover/engine/dunebuggy
@@ -29,7 +29,7 @@
 	containertype = /obj/structure/largecrate/animal/weretiger
 	containername = "Weretiger crate"
 	access = access_xenobiology
-/*
+
 /datum/supply_pack/sci/otie
 	name = "VARMAcorp adoptable reject (Dangerous!)"
 	cost = 100
@@ -43,4 +43,4 @@
 	containertype = /obj/structure/largecrate/animal/otie/phoron
 	containername = "VARMAcorp adaptive beta subject (Experimental)"
 	access = access_xenobiology
-*/ //VORESTATION AI TEMPORARY REMOVAL. Oties commented out cuz broke.
+ //VORESTATION AI TEMPORARY REMOVAL. Oties commented out cuz broke.
