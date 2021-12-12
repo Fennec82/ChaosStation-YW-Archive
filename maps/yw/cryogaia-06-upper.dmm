@@ -795,6 +795,12 @@
 	dir = 4
 	},
 /obj/structure/cable/yellow,
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating/snow/plating,
 /area/maintenance/auxsolarport)
 "bZ" = (
@@ -6567,6 +6573,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating/snow/plating,
 /area/maintenance/auxsolarport)
 "or" = (
@@ -7284,6 +7295,11 @@
 "ry" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/space_heater,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating/snow/plating,
 /area/maintenance/auxsolarport)
 "rA" = (
@@ -28091,7 +28107,7 @@ bu
 qa
 ee
 bY
-fb
+Ap
 ry
 qZ
 xN
