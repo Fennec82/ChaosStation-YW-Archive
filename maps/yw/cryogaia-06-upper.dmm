@@ -13553,6 +13553,7 @@
 	},
 /obj/structure/table/rack/shelf/steel,
 /obj/machinery/light,
+/obj/item/weapon/storage/box/nifsofts_mining,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "ZT" = (
