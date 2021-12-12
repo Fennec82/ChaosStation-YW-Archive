@@ -59,7 +59,7 @@
 	R.old_x 	 = -16
 	..()
 
-
+/*
 /obj/item/weapon/robot_module/surgeryhound
 	name = "SurgeryHound module"
 	channels = list("medical" = 1)
@@ -124,3 +124,4 @@
 		var/obj/item/weapon/reagent_containers/spray/PS = src.emag
 		PS.reagents.add_reagent("pacid", 2 * amount)
 	..()
+*/

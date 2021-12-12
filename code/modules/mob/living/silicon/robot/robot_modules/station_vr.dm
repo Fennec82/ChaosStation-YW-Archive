@@ -52,6 +52,7 @@
 	robot_modules["BoozeHound"] = /obj/item/weapon/robot_module/robot/booze
 	robot_modules["KMine"] = /obj/item/weapon/robot_module/robot/kmine
 	robot_modules["Stray"] = /obj/item/weapon/robot_module/robot/stray
+	robot_modules["SurgeryHound"] = /obj/item/weapon/robot_module/surgeryhound // CS addition.
 	return 1
 
 //Just add a new proc with the robot_module type if you wish to run some other vore code
@@ -978,3 +979,108 @@
 	if(src.emag)
 		var/obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer/B = src.emag
 		B.reagents.add_reagent("beer2", 2 * amount)
+
+
+//Chaosstation additions start
+
+//SurgeryHound -Done by Fennec82
+/obj/item/weapon/robot_module/surgeryhound
+	name = "SurgeryHound module"
+	channels = list("medical" = 1)
+	networks = list (NETWORK_MEDICAL)
+	subsystems = list(/mob/living/silicon/proc/subsystem_crew_monitor) //Crew monitor anywhere!
+	can_be_pushed = 0
+	sprites = list(
+					"Medical Hound" = "medihound",
+					"Dark Medical Hound (Static)" = "medihounddark",
+					"Mediborg model V-2" = "vale",
+					"Shara (Unique)" = "shara"
+					) //borgi incompatable with job
+
+/obj/item/weapon/robot_module/surgeryhound/New(var/mob/living/silicon/robot/R)
+	src.modules += new /obj/item/weapon/dogborg/jaws/small(src)
+	src.modules += new /obj/item/device/dogborg/boop_module(src)
+	src.modules += new /obj/item/device/healthanalyzer/improved(src) //They are a surgeon after all
+	src.modules += new /obj/item/borg/sight/hud/med(src) //See who's hurt generally.
+	src.modules += new /obj/item/weapon/reagent_containers/syringe(src)
+	src.modules += new /obj/item/weapon/reagent_containers/glass/beaker/large(src)
+	src.modules += new /obj/item/device/sleevemate(src) //Lets them scan people.
+	src.modules += new /obj/item/weapon/shockpaddles/robot/hound(src) //Paws of life
+	src.modules += new /obj/item/taperoll/medical
+	src.modules += new /obj/item/weapon/reagent_containers/dropper(src) // Allows surgeon borg to fix necrosis
+	src.modules += new /obj/item/weapon/surgical/scalpel/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/hemostat/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/retractor/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/cautery/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/bonegel/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/FixOVein/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/bonesetter/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/circular_saw/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/surgicaldrill/cyborg(src)
+	src.modules += new /obj/item/weapon/gripper/no_use/organ(src)
+	src.modules += new /obj/item/weapon/gripper/medical(src)
+	src.emag = new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src)//Emag, not a big problem
+
+	var/datum/matter_synth/medicine = new /datum/matter_synth/medicine(20000) //Surgeon should have higher reserves.
+	synths += medicine
+
+	var/obj/item/stack/medical/advanced/clotting/C = new (src)
+	C.uses_charge = 1
+	C.charge_costs = list(100)
+	C.synths = list(medicine)
+	src.modules += C
+
+	var/datum/matter_synth/water = new /datum/matter_synth(5000)
+	water.name = "Water reserves"
+	water.recharge_rate = 0
+	R.water_res = water
+	synths += water
+
+	var/obj/item/weapon/reagent_containers/borghypo/hound/H = new /obj/item/weapon/reagent_containers/borghypo/hound(src)
+	H.water = water
+	src.modules += H
+
+	var/obj/item/device/dogborg/tongue/T = new /obj/item/device/dogborg/tongue(src)
+	T.water = water
+	src.modules += T
+
+	var/obj/item/device/dogborg/sleeper/B = new /obj/item/device/dogborg/sleeper(src) //So they can nom people and heal them
+	B.water = water
+	src.modules += B
+
+	var/obj/item/stack/medical/advanced/ointment/O = new /obj/item/stack/medical/advanced/ointment(src)
+	var/obj/item/stack/medical/advanced/bruise_pack/P = new /obj/item/stack/medical/advanced/bruise_pack(src)
+	var/obj/item/stack/medical/splint/S = new /obj/item/stack/medical/splint(src)
+	O.uses_charge = 1
+	O.charge_costs = list(100)
+	O.synths = list(medicine)
+	P.uses_charge = 1
+	P.charge_costs = list(100)
+	P.synths = list(medicine)
+	S.uses_charge = 1
+	S.charge_costs = list(100)
+	S.synths = list(medicine)
+	src.modules += O
+	src.modules += P
+	src.modules += S
+
+	R.icon = 'icons/mob/widerobot_vr.dmi'
+
+	src.modules += new /obj/item/device/dogborg/pounce_module(src) //Pounce shit test
+	R.icon = 'icons/mob/widerobot_med_cs.dmi'
+	R.wideborg_dept = 'icons/mob/widerobot_med_cs.dmi'
+	R.hands.icon = 'icons/mob/screen1_robot_vr.dmi'
+	R.ui_style_vr = TRUE
+	R.pixel_x 	 = -16
+	R.old_x  	 = -16
+	R.default_pixel_x = -16
+	R.dogborg = TRUE
+	R.wideborg = TRUE
+	R.verbs |= /mob/living/silicon/robot/proc/ex_reserve_refill
+	R.verbs |= /mob/living/silicon/robot/proc/robot_mount
+	R.verbs |= /mob/living/proc/toggle_rider_reins
+	R.verbs |= /mob/living/proc/shred_limb
+	R.verbs |= /mob/living/silicon/robot/proc/rest_style
+	..()
+//End Surgeryhound
+//Chaosstation end
