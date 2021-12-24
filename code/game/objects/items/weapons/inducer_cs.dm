@@ -1,7 +1,7 @@
 //Admemes
 /obj/item/weapon/inducer/admin
 	name = "infinite-charge inducer"
-	desc = "A tool for inductively charging power cells. This one is rigged to transfer charge at a much faster rate, and does not have to have it's power source chargwed often"
+	desc = "A tool for inductively charging power cells. This one is rigged to transfer charge at a much faster rate, and does not have to have it's power source charged often"
 	icon_state = "inducer-engi"
 	item_state = "inducer-engi"
 	powertransfer = 2000
