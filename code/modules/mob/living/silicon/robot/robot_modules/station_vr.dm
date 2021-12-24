@@ -582,7 +582,7 @@
 	src.modules += new /obj/item/weapon/rms(src)
 	src.emag 	 = new /obj/item/weapon/dogborg/pounce(src)
 	src.modules += new /obj/item/weapon/pipe_dispenser(src) //YW change
-	src.modules += new /obj/item/weapon/rcd/electric/mounted/borg //CS addition
+	//src.modules += new /obj/item/weapon/rcd/electric/mounted/borg //CS addition
 
 	//Painfully slow charger regen but high capacity. Also starts with low amount.
 	var/datum/matter_synth/metal = new /datum/matter_synth/metal()
