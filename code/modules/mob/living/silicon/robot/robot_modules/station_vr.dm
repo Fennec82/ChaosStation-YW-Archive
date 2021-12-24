@@ -1074,8 +1074,8 @@
 	R.icon = 'icons/mob/widerobot_vr.dmi'
 
 	src.modules += new /obj/item/device/dogborg/pounce_module(src) //Pounce shit test
-	R.icon = 'icons/mob/widerobot_med_cs.dmi'
-	R.wideborg_dept = 'icons/mob/widerobot_med_cs.dmi'
+	R.icon = 'modular_chaosstation/icons/mob/widerobot_med_cs.dmi'
+	R.wideborg_dept = 'modular_chaosstation/icons/mob/widerobot_med_cs.dmi'
 	R.hands.icon = 'icons/mob/screen1_robot_vr.dmi'
 	R.ui_style_vr = TRUE
 	R.pixel_x 	 = -16
