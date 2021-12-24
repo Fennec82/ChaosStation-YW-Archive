@@ -159,6 +159,17 @@
 	default_cartridge = /obj/item/weapon/cartridge/medical
 	icon_state = "pda-gene"
 
+//Chaosstation additions begin
+/obj/item/device/pda/syndicate/officer
+	default_cartridge = /obj/item/weapon/cartridge/captain
+	icon_state = "pda-syn"
+	detonate = 0
+
+/obj/item/device/pda/ert/officer
+	default_cartridge = /obj/item/weapon/cartridge/captain
+	icon_state = "pda-h"
+	detonate = 0
+//Chaosstation end
 
 // Used for the PDA multicaster, which mirrors messages sent to it to a specific department,
 /obj/item/device/pda/multicaster
@@ -244,3 +255,7 @@
 						/obj/item/weapon/cartridge/signal/science,
 						/obj/item/weapon/cartridge/quartermaster)
 	new newcart(src)
+
+
+
+

@@ -140,8 +140,8 @@
 	siemens_coefficient = 0.6
 
 
-/obj/item/clothing/suit/armor/swat/officer
-	name = "officer jacket"
+/obj/item/clothing/suit/armor/swat/officer/nt //Chaosstation edit-NT
+	name = "NanoTrasen SpecOps officer jacket" //Chaosstation edit-NT
 	desc = "An armored jacket used in special operations."
 	icon_state = "detective"
 	item_state_slots = list(slot_r_hand_str = "detective", slot_l_hand_str = "detective")

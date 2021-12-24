@@ -162,7 +162,7 @@
 
 /obj/item/weapon/storage/backpack/dufflebag/syndie/ammo
 	name = "ammunition dufflebag"
-	desc = "A large dufflebag for holding extra weapons ammunition and supplies. This one appears to be made out of lighter material than usual."
+	desc = "A large dufflebag for holding extra weapons, ammunition, and supplies. This one appears to be made out of lighter material than usual."
 	icon_state = "duffle_syndieammo"
 
 /obj/item/weapon/storage/backpack/dufflebag/captain
