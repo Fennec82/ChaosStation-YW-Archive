@@ -722,6 +722,6 @@
 	name = "ERT Belly"
 	desc = "A mounted 'emergency containment cell'."
 	icon_state = "sleeperert"
-	injection_chems = list("inaprovaline", "paracetamol") // short list
+	injection_chems = list("inaprovaline", "paracetamol", "tricordrazine") // short list
 
 #undef SLEEPER_INJECT_COST
