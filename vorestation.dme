@@ -1301,7 +1301,6 @@
 #include "code\game\objects\items\weapons\handcuffs.dm"
 #include "code\game\objects\items\weapons\handcuffs_vr.dm"
 #include "code\game\objects\items\weapons\improvised_components.dm"
-#include "code\game\objects\items\weapons\inducer_cs.dm"
 #include "code\game\objects\items\weapons\inducer_vr.dm"
 #include "code\game\objects\items\weapons\manuals.dm"
 #include "code\game\objects\items\weapons\manuals_vr.dm"
@@ -4248,7 +4247,8 @@
 #include "maps\~map_system\maps.dm"
 #include "modular_chaosstation\code\global_cs.dm"
 #include "modular_chaosstation\code\game\objects\items\weapons\inducer_cs.dm"
+#include "modular_chaosstation\code\game\objects\items\weapons\RCD_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\head\misc_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\pda\pda_subtypes_cs.dm"
-#include "modular_chaosstation\code\modules\clothing\suits\amor_cs.dm"
+#include "modular_chaosstation\code\modules\clothing\suits\armor_cs.dm"
 // END_INCLUDE
