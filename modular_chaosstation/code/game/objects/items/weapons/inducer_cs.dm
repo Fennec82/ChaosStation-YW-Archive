@@ -12,8 +12,9 @@
 /obj/item/weapon/inducer/admin/riotscopez
 	name = "military inducer"
 	desc = "A tool for inductively charging internal power cells. This one has a suspicious colour scheme, and is rigged to transfer charge at a much faster rate. Charge is irrelevant on this device."
-	icon_state = "inducer-syndi"
-	item_state = "inducer-syndi"
+	icon = 'modular_chaosstation/icons/obj/tools_cs.dmi'
+	icon_state = "inducer_mil"
+	item_state = "inducer_mil"
 	powertransfer = 2000
 	cell_type = /obj/item/weapon/cell/infinite
 	charge_guns = TRUE
