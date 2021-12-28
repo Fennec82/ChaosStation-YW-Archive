@@ -19,10 +19,12 @@
 	var/chems_to_use = 5 //Per injection
 
 	charges = list(
-		list("inaprovaline",  "inaprovaline",  0, 20),
-		list("anti_toxin",  "anti_toxin",  0, 20),
-		list("paracetamol",      "paracetamol",      0, 20),
-		list("dexalin",  "dexalin",      0, 20)
+		list("inaprovaline",  "inaprovaline",  0, 30), //-30 Chaosstation edit
+		list("anti_toxin",  "anti_toxin",  0, 30),
+		list("paracetamol",      "paracetamol",      0, 30),
+		list("dexalin",  "dexalin",      0, 30),
+		list("bicaridine",  "bicaridine",      0, 30), //-Bicaridine and Kelotane Chaosstation edit
+		list("kelotane",  "kelotane",      0, 30),
 		)
 
 /obj/item/rig_module/rescue_pharm/process()

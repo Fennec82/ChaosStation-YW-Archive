@@ -94,7 +94,7 @@
 	circuit = /obj/item/weapon/circuitboard/sleeper
 	var/mob/living/carbon/human/occupant = null
 	var/list/available_chemicals = list()
-	var/list/base_chemicals = list("inaprovaline" = "Inaprovaline", "paracetamol" = "Paracetamol", "anti_toxin" = "Dylovene", "dexalin" = "Dexalin")
+	var/list/base_chemicals = list("inaprovaline" = "Inaprovaline", "paracetamol" = "Paracetamol", "anti_toxin" = "Dylovene", "dexalin" = "Dexalin", "bicaridine" = "Bicaridine", "kelotane" = "Kelotane")
 	var/amounts = list(5, 10)
 	var/obj/item/weapon/reagent_containers/glass/beaker = null
 	var/filtering = 0
@@ -169,7 +169,7 @@
 /obj/machinery/sleeper/attack_hand(var/mob/user)
 	if(!controls_inside)
 		return FALSE
-	
+
 	if(user == occupant)
 		tgui_interact(user)
 
