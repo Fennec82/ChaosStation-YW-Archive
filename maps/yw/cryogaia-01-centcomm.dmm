@@ -5180,7 +5180,7 @@
 	},
 /area/tdome/tdome2)
 "xE" = (
-/obj/structure/closet/secure_closet/hos,
+/obj/structure/closet/secure_closet/nanotrasen_creed,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
