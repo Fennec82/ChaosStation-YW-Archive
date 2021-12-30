@@ -250,6 +250,7 @@
 		/obj/item/clothing/suit/storage/toggle/labcoat = 2,
 		/obj/item/clothing/shoes/black = 2,
 		/obj/item/clothing/gloves/black = 2,
+		/obj/item/device/defib_kit/jumper_kit/compact = 2,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/science/robotics = 2,
 		/obj/item/clothing/head/beret/science/robotics = 2,
 		/obj/item/weapon/storage/backpack/toxins,
