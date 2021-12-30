@@ -5145,6 +5145,11 @@
 	dir = 4;
 	pixel_x = -23
 	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/structure/table/steel,
+/obj/machinery/photocopier/faxmachine,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/manta/bridge)
 "vI" = (
@@ -10848,9 +10853,6 @@
 "TS" = (
 /obj/item/modular_computer/console/preset/mercenary{
 	dir = 4
-	},
-/obj/structure/railing/grey{
-	dir = 1
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8

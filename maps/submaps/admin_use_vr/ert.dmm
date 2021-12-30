@@ -4969,6 +4969,14 @@
 "BW" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/ert/hallways)
+"Cb" = (
+/obj/machinery/light/no_nightshift{
+	dir = 8
+	},
+/obj/structure/table/steel_reinforced,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/tiled/techfloor,
+/area/ship/ert/bridge)
 "Ce" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -17807,7 +17815,7 @@ mb
 Bo
 ZM
 ZM
-ED
+Cb
 Ao
 cP
 Oi
