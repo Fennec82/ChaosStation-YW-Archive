@@ -16,6 +16,7 @@ var/const/MIME				=(1<<14) //VOREStation Add
 var/const/INTERN			=(1<<15) //VOREStation Add
 var/const/BLUESHIELD		=(1<<16) //YW addition
 var/const/SECPILOT			=(1<<17) //YW addition
+var/const/SECSPECIAL		=(1<<18) //CS addition
 
 var/const/MEDSCI			=(1<<1)
 
@@ -34,6 +35,7 @@ var/const/PATHFINDER 		=(1<<11) //VOREStation Add
 var/const/EXPLORER 			=(1<<12) //VOREStation Add
 var/const/SAR 				=(1<<13) //VOREStation Add
 var/const/XENOBOTANIST		=(1<<14) //VOREStation Add
+var/const/MEDSPECIAL		=(1<<19) //CS addition
 
 var/const/CIVILIAN			=(1<<2)
 

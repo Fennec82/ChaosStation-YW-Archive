@@ -1,4 +1,4 @@
-/obj/structure/portal_event
+  /obj/structure/portal_event
 	name = "portal"
 	desc = "It leads to someplace else!"
 	icon = 'icons/obj/stationobjs_vr.dmi'
@@ -146,7 +146,7 @@
 			P.target = null
 		qdel_null(target)
 	. = ..()
-	
+
 /obj/structure/portal_target
 	name = "portal destination"
 	desc = "you shouldn't see this unless you're a ghost"
