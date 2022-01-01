@@ -5800,6 +5800,14 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating,
 /area/cryogaia/station/ert_arrival)
+"cjH" = (
+/obj/structure/closet/secure_closet/consultant,
+/obj/item/weapon/soap/nanotrasen,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/equipstorage)
 "cjI" = (
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/tiled/techfloor,
@@ -52231,6 +52239,12 @@
 	},
 /turf/simulated/floor/outdoors/snow/snow/snow2/cryogaia,
 /area/borealis2/outdoors/grounds)
+"ugl" = (
+/obj/structure/closet/secure_closet/sarge,
+/obj/effect/floor_decal/industrial/outline,
+/obj/item/clothing/shoes/boots/jackboots/toeless,
+/turf/simulated/floor/tiled/dark,
+/area/security/security_lockerroom)
 "ugA" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
@@ -71321,7 +71335,7 @@ cpw
 jpH
 aHP
 vDb
-suJ
+cjH
 nfW
 hsD
 urL
@@ -71384,7 +71398,7 @@ jEo
 vij
 bDq
 xou
-lJN
+ugl
 eKl
 bGx
 xSF

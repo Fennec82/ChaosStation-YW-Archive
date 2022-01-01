@@ -16,3 +16,12 @@
 	outfit_type = /decl/hierarchy/outfit/job/medical/consultant
 	job_description = "Chief Consultants are responsible for the administration of the medical department so the Chief Medical Officer can focus on other, more important tasks. \
 						They outrank all other members of the medical department except the CMO, and may specialize in a particular field; however, said specialization should not distract them from their primary duties, which is to be a medical expert."
+
+	alt_titles = list("Head Surgeon" = /datum/alt_title/headsurgeon, "Senior Physician" = /datum/alt_title/senior_doc)
+
+
+/datum/alt_title/headsurgeon
+	title = "Head Surgeon"
+
+/datum/alt_title/senior_doc
+	title = "Senior Physician"

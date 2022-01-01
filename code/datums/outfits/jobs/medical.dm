@@ -15,7 +15,7 @@
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/cmo
 	shoes = /obj/item/clothing/shoes/brown
 	l_hand = /obj/item/weapon/storage/firstaid/adv
-	r_pocket = /obj/item/device/healthanalyzer
+	r_pocket = /obj/item/device/healthanalyzer/improved
 	id_type = /obj/item/weapon/card/id/medical/head
 	pda_type = /obj/item/device/pda/heads/cmo
 

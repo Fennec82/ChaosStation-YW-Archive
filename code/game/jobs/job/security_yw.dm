@@ -22,7 +22,7 @@
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the head of security"
+	supervisors = "the Security Sergeant and Head of Security" //Sec Sarge -ChaosStation edit
 	selection_color = "#601C1C"
 	economic_modifier = 5
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks, access_secpilot, access_pilot)

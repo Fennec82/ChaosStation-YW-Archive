@@ -21,7 +21,7 @@
 	job_description = "Leading officers are responsible for the administration of the security department so the Head of Security and Warden can focus on other, more important tasks. \
 						They outrank all officers except the warden and HoS, and may specialize in a particular field; however, said specialization should not distract them from their primary duties, which is to be a senior officer."
 
-	alt_titles = list("Leading Officer" = /datum/alt_title/leading_contractor, "Senior Guard" = /datum/alt_title/senior_guard, "Weapons Specialist" = /datum/alt_title/sec_combat)
+	alt_titles = list("Leading Officer" = /datum/alt_title/leading_contractor, "Senior Guard" = /datum/alt_title/senior_guard, "Weapons Specialist" = /datum/alt_title/sec_combat, "Security Fireteam Leader" = /datum/alt_title/sec_ft_lead)
 
 /datum/alt_title/leading_contractor
 	title = "Leading Officer"
@@ -31,3 +31,6 @@
 
 /datum/alt_title/sec_combat
 	title = "Weapons Specialist"
+
+/datum/alt_title/sec_ft_lead
+	title = "Security Fireteam Leader"

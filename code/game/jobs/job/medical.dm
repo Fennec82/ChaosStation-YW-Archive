@@ -46,7 +46,7 @@
 	faction = "Station"
 	total_positions = 5
 	spawn_positions = 3
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Chief Consultant and Chief Medical Officer" //Chief Consultant-ChaosStation edit
 	selection_color = "#013D3B"
 	economic_modifier = 7
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_eva)
@@ -102,7 +102,7 @@
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Chief Consultant and Chief Medical Officer" //Chief Consultant-ChaosStation edit
 	selection_color = "#013D3B"
 	economic_modifier = 5
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics)
@@ -155,7 +155,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	economic_modifier = 5
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Chief Consultant and Chief Medical Officer" //Chief Consultant-ChaosStation edit
 	selection_color = "#013D3B"
 	access = list(access_medical, access_medical_equip, access_morgue, access_psychiatrist)
 	minimal_access = list(access_medical, access_medical_equip, access_psychiatrist)
@@ -183,7 +183,7 @@
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Chief Consultant and Chief Medical Officer" //Chief Consultant-ChaosStation edit
 	selection_color = "#013D3B"
 	economic_modifier = 4
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_eva, access_maint_tunnels, access_external_airlocks, access_psychiatrist)

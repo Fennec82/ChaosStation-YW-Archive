@@ -85,7 +85,7 @@
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Head of Security"
+	supervisors = "the Security Sergeant and Head of Security" //Sec Sarge -ChaosStation edit
 	selection_color = "#601C1C"
 	access = list(access_security, access_sec_doors, access_forensics_lockers, access_morgue, access_maint_tunnels, access_eva, access_external_airlocks, access_brig) //Vorestation edit - access_brig
 	minimal_access = list(access_security, access_sec_doors, access_forensics_lockers, access_morgue, access_maint_tunnels, access_eva, access_external_airlocks)
@@ -115,7 +115,7 @@
 	faction = "Station"
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the Head of Security"
+	supervisors = "the Security Sergeant and Head of Security" //Sec Sarge -ChaosStation edit
 	selection_color = "#601C1C"
 	economic_modifier = 4
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks)
