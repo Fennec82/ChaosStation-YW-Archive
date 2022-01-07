@@ -403,6 +403,9 @@
 	dir = 10
 	},
 /obj/structure/table/rack/shelf/steel,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "bc" = (
@@ -3736,6 +3739,9 @@
 	dir = 4
 	},
 /obj/structure/table/rack/shelf/steel,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
+/obj/item/weapon/gun/energy/kinetic_accelerator,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "iq" = (
@@ -5735,6 +5741,10 @@
 /obj/item/weapon/reagent_containers/food/snacks/liquidprotein,
 /obj/item/weapon/reagent_containers/food/snacks/liquidprotein,
 /obj/item/weapon/reagent_containers/food/snacks/liquidprotein,
+/obj/item/weapon/reagent_containers/food/snacks/liquidprotein,
+/obj/item/weapon/reagent_containers/food/snacks/liquidprotein,
+/obj/item/weapon/reagent_containers/food/snacks/liquidfood,
+/obj/item/weapon/reagent_containers/food/snacks/liquidfood,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "ml" = (
@@ -8311,6 +8321,10 @@
 /obj/effect/floor_decal/corner/brown/full{
 	dir = 4
 	},
+/obj/structure/table/steel,
+/obj/item/weapon/tank/jetpack/oxygen,
+/obj/item/weapon/tank/jetpack/oxygen,
+/obj/item/weapon/tank/jetpack/oxygen,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "wZ" = (
@@ -8547,6 +8561,16 @@
 	},
 /turf/simulated/floor/plating/snow/plating,
 /area/borealis2/outdoors/grounds/tower/northwest)
+"yr" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/mask/breath,
+/obj/item/weapon/rig/industrial/equipped,
+/obj/item/weapon/mining_scanner,
+/turf/simulated/floor/tiled,
+/area/quartermaster/miningdock)
 "ys" = (
 /obj/machinery/door/airlock/glass_security{
 	name = "Security Breakroom"
@@ -11282,6 +11306,10 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/structure/table/rack,
+/obj/item/clothing/mask/breath,
+/obj/item/weapon/rig/industrial/equipped,
+/obj/item/weapon/mining_scanner,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "NL" = (
@@ -13553,6 +13581,8 @@
 	},
 /obj/structure/table/rack/shelf/steel,
 /obj/machinery/light,
+/obj/item/weapon/tool/wrench,
+/obj/item/weapon/tool/screwdriver,
 /obj/item/weapon/storage/box/nifsofts_mining,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
@@ -33458,8 +33488,8 @@ KH
 KH
 sG
 NH
-nw
-nw
+yr
+yr
 ip
 dj
 fK
