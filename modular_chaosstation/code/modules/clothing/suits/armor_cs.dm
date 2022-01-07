@@ -10,7 +10,7 @@
 
 /obj/item/clothing/suit/storage/vest/sargecoat
 	name = "NT Sergeant's armored coat"
-	desc = "A greatcoat enhanced with a special alloy for some protection and style."
+	desc = "A black greatcoat with a silver rank insignia, displaying your status in the facility's security team."
 	icon_state = "leathercoat_sec"
 	blood_overlay_type = "suit"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
