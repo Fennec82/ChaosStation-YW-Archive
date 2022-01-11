@@ -4250,6 +4250,7 @@
 #include "modular_chaosstation\code\datums\outfits\spec_op_cs.dm"
 #include "modular_chaosstation\code\datums\outfits\jobs\medical_cs.dm"
 #include "modular_chaosstation\code\datums\outfits\jobs\security_cs.dm"
+#include "modular_chaosstation\code\datums\supplypacks\medical_cs.dm"
 #include "modular_chaosstation\code\game\jobs\job\medical_cs.dm"
 #include "modular_chaosstation\code\game\jobs\job\security_cs.dm"
 #include "modular_chaosstation\code\game\objects\items\devices\defib_cs.dm"
