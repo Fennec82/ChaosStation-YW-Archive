@@ -200,8 +200,12 @@
 /area/centcom/medical)
 "be" = (
 /obj/structure/table/rack,
-/obj/item/weapon/gun/energy/laser,
-/obj/item/weapon/gun/energy/laser,
+/obj/item/weapon/gun/energy/pulse_rifle,
+/obj/item/weapon/gun/energy/pulse_rifle,
+/obj/item/weapon/gun/energy/pulse_rifle,
+/obj/item/weapon/gun/energy/pulse_rifle,
+/obj/item/weapon/gun/energy/pulse_rifle,
+/obj/item/weapon/gun/energy/pulse_rifle,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -1830,7 +1834,7 @@
 	},
 /area/centcom/medical)
 "iA" = (
-/obj/mecha/combat/gygax/dark,
+/obj/mecha/combat/marauder/seraph,
 /turf/unsimulated/floor{
 	icon_state = "plating";
 	name = "plating"
@@ -2239,6 +2243,13 @@
 /obj/item/ammo_magazine/m545saw,
 /obj/item/ammo_magazine/m545saw,
 /obj/item/weapon/gun/projectile/automatic/l6_saw,
+/obj/item/ammo_magazine/m545saw,
+/obj/item/ammo_magazine/m545saw,
+/obj/item/ammo_magazine/m545saw,
+/obj/item/ammo_magazine/m545saw,
+/obj/item/ammo_magazine/m545saw,
+/obj/item/ammo_magazine/m545saw,
+/obj/item/weapon/gun/projectile/automatic/l6_saw,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -2282,7 +2293,24 @@
 /area/tdome/tdome1)
 "kw" = (
 /obj/structure/table/rack,
-/obj/item/weapon/melee/energy/sword,
+/obj/item/clothing/mask/gas/commando,
+/obj/item/clothing/mask/gas/commando,
+/obj/item/clothing/mask/gas/commando,
+/obj/item/clothing/mask/gas/commando,
+/obj/item/clothing/mask/gas/commando,
+/obj/item/clothing/mask/gas/commando,
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/head/helmet/space/deathsquad,
+/obj/item/clothing/head/helmet/space/deathsquad,
+/obj/item/clothing/head/helmet/space/deathsquad,
+/obj/item/clothing/head/helmet/space/deathsquad,
+/obj/item/clothing/head/helmet/space/deathsquad,
+/obj/item/clothing/head/helmet/space/deathsquad,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -2883,6 +2911,7 @@
 /obj/item/mecha_parts/mecha_equipment/tool/sleeper,
 /obj/item/mecha_parts/mecha_equipment/tool/syringe_gun,
 /obj/structure/table/steel_reinforced,
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/medigun,
 /turf/unsimulated/floor{
 	icon_state = "plating";
 	name = "plating"
@@ -4650,7 +4679,7 @@
 	},
 /area/tdome/tdomeobserve)
 "vg" = (
-/obj/mecha/medical/odysseus/loaded,
+/obj/mecha/combat/gygax/serenity,
 /turf/unsimulated/floor{
 	icon_state = "plating";
 	name = "plating"
@@ -6308,7 +6337,12 @@
 /area/tdome/tdomeadmin)
 "Cw" = (
 /obj/structure/table/rack,
-/obj/item/weapon/gun/launcher/rocket,
+/obj/item/weapon/melee/energy/sword/blue,
+/obj/item/weapon/melee/energy/sword/blue,
+/obj/item/weapon/melee/energy/sword/blue,
+/obj/item/weapon/melee/energy/sword/blue,
+/obj/item/weapon/melee/energy/sword/blue,
+/obj/item/weapon/melee/energy/sword/blue,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -6965,9 +6999,10 @@
 "Gb" = (
 /obj/structure/table/reinforced,
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/ion,
-/obj/item/mecha_parts/mecha_equipment/weapon/energy/taser,
 /obj/item/mecha_parts/mecha_equipment/anticcw_armor_booster,
 /obj/item/mecha_parts/mecha_equipment/antiproj_armor_booster,
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/pulse,
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/medigun,
 /turf/unsimulated/floor{
 	icon_state = "plating";
 	name = "plating"
@@ -11001,6 +11036,7 @@
 /obj/item/ammo_casing/rocket,
 /obj/item/ammo_casing/rocket,
 /obj/item/ammo_casing/rocket,
+/obj/item/weapon/gun/launcher/rocket,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},

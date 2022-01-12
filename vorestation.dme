@@ -4259,6 +4259,7 @@
 #include "modular_chaosstation\code\game\objects\structures\crates_lockers\closets\secure\centcom.dm"
 #include "modular_chaosstation\code\game\objects\structures\crates_lockers\closets\secure\medical_cs.dm"
 #include "modular_chaosstation\code\game\objects\structures\crates_lockers\closets\secure\security_cs.dm"
+#include "modular_chaosstation\code\modules\clothing\head\armor_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\head\jobs_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\head\misc_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\pda\pda_subtypes_cs.dm"

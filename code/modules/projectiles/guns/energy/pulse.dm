@@ -6,13 +6,13 @@
 	slot_flags = SLOT_BELT|SLOT_BACK
 	force = 10
 	projectile_type = /obj/item/projectile/beam
-	charge_cost = 120
+	charge_cost = 20 //CS Change - Bring in line with TG/Para
 	sel_mode = 2
 
 	firemodes = list(
-		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, fire_delay=null, charge_cost = 120),
-		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam, fire_delay=null, charge_cost = 120),
-		list(mode_name="DESTROY", projectile_type=/obj/item/projectile/beam/pulse, fire_delay=null, charge_cost = 240),
+		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, fire_delay=null, charge_cost = 20),
+		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam, fire_delay=null, charge_cost = 25),
+		list(mode_name="DESTROY", projectile_type=/obj/item/projectile/beam/pulse, fire_delay=null, charge_cost = 40),
 		)
 
 /obj/item/weapon/gun/energy/pulse_rifle/mounted
@@ -39,15 +39,15 @@
 	The Grasshopper remains one of the smallest production laser pistols ever produced that is still capable of causing significant damage to organic tissue."
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	icon_state = "lpistol"
-	charge_cost = 480
+	charge_cost = 40
 
 /obj/item/weapon/gun/energy/pulse_rifle/compact/admin
 	name = "\improper LP2 Grasshopper Deluxe"
 	desc = "It's not the size of the gun, it's the size of the hole it puts through people."
-	charge_cost = 240
+	charge_cost = 20
 
 	firemodes = list(
-		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, fire_delay=null, charge_cost = 240),
-		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam, fire_delay=null, charge_cost = 240),
-		list(mode_name="DESTROY", projectile_type=/obj/item/projectile/beam/pulse, fire_delay=null, charge_cost = 480),
+		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, fire_delay=null, charge_cost = 20),
+		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam, fire_delay=null, charge_cost = 25),
+		list(mode_name="DESTROY", projectile_type=/obj/item/projectile/beam/pulse, fire_delay=null, charge_cost = 40),
 		)

@@ -5,7 +5,7 @@
 	l_ear = /obj/item/device/radio/headset/ert
 	glasses = /obj/item/clothing/glasses/thermal/plain/eyepatch
 	mask = /obj/item/clothing/mask/smokable/cigarette/cigar/havana
-	head = /obj/item/clothing/head/beret	//deathsquad
+	head = /obj/item/clothing/head/helmet/swat/beret/dsquad	//deathsquad //Added!-CS addition
 	belt = /obj/item/weapon/gun/energy/pulse_rifle/compact/admin
 	back = /obj/item/weapon/storage/backpack/satchel
 	shoes = /obj/item/clothing/shoes/boots/combat
