@@ -39486,6 +39486,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/quartermaster/storage)
+"pdD" = (
+/obj/structure/ghost_pod/manual/lost_drone/dogborg,
+/turf/simulated/floor/outdoors/snow/snow/snow2/cryogaia,
+/area/borealis2/outdoors/exterior)
 "pdJ" = (
 /turf/simulated/floor/tiled/steel,
 /area/quartermaster/warehouse)
@@ -39618,10 +39622,7 @@
 /area/bridge_hallway)
 "pgd" = (
 /obj/effect/decal/cleanable/cobweb,
-/obj/machinery/smartfridge/sheets/persistent_lossy{
-	description_info = "Materials stored in here will remain for serveral rounds with a slight loss for each round depending on the amounts of materials inside.";
-	name = "\improper long term Smart Sheet Storage"
-	},
+/obj/machinery/smartfridge/sheets/persistent,
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
 "pgg" = (
@@ -63351,7 +63352,7 @@ iSE
 iSE
 iSE
 iSE
-iSE
+pdD
 iSE
 iSE
 iSE
