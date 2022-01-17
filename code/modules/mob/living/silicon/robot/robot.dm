@@ -266,7 +266,7 @@
 	var/list/modules = list()
 	//VOREStatation Edit Start: shell restrictions
 	if(shell)
-		modules.Add(shell_module_types)
+		modules.Add(robot_module_types) //CS EDIT-No shell restrictions
 	else
 		modules.Add(robot_module_types)
 		if(crisis || security_level == SEC_LEVEL_RED || crisis_override)
