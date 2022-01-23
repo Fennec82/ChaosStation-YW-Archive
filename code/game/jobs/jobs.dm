@@ -17,6 +17,7 @@ var/const/INTERN			=(1<<15) //VOREStation Add
 var/const/BLUESHIELD		=(1<<16) //YW addition
 var/const/SECPILOT			=(1<<17) //YW addition
 var/const/SECSPECIAL		=(1<<18) //CS addition
+var/const/SECMED			=(1<<20) //CS addition
 
 var/const/MEDSCI			=(1<<1)
 
