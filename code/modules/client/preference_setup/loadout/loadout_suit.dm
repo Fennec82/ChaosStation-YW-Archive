@@ -364,7 +364,7 @@
 /datum/gear/suit/wintercoat/security
 	display_name = "winter coat, security"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/security
-	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Detective","Blueshield Guard","Security Pilot") //YW ADDITIONS
+	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Detective","Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS //CS add-BrigPhys
 
 /datum/gear/suit/wintercoat/security/hos
 	display_name = "winter coat, head of security"
@@ -374,12 +374,12 @@
 /datum/gear/suit/wintercoat/medical
 	display_name = "winter coat, medical"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/medical
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Field Medic")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Field Medic", "Brig Physician")//CS add-BrigPhys
 
 /datum/gear/suit/wintercoat/medical/alt
 	display_name = "winter coat, medical alt"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/medical/alt
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Field Medic")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Field Medic", "Brig Physician")//CS add-BrigPhys
 
 /datum/gear/suit/wintercoat/medical/viro
 	display_name = "winter coat, virologist"
@@ -389,7 +389,7 @@
 /datum/gear/suit/wintercoat/medical/para
 	display_name = "winter coat, paramedic"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/medical/para
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Paramedic")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Paramedic", "Brig Physician")//CS add-BrigPhys
 
 /datum/gear/suit/wintercoat/medical/chemist
 	display_name = "winter coat, chemist"
@@ -404,7 +404,7 @@
 /datum/gear/suit/wintercoat/medical/sar
 	display_name = "winter coat, search and rescue"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/medical/sar
-	allowed_roles = list("Chief Medical Officer", "Field Medic", "Paramedic")
+	allowed_roles = list("Chief Medical Officer", "Field Medic", "Paramedic", "Brig Physician")//CS add-BrigPhys
 
 /datum/gear/suit/wintercoat/science
 	display_name = "winter coat, science"
@@ -584,12 +584,12 @@
 /datum/gear/suit/snowsuit/security
 	display_name = "snowsuit, security"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/snowsuit/security
-	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Detective","Blueshield Guard","Security Pilot")
+	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Detective","Blueshield Guard","Security Pilot", "Brig Physician")//CS add-BrigPhys
 
 /datum/gear/suit/snowsuit/medical
 	display_name = "snowsuit, medical"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/snowsuit/medical
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Search and Rescue")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Search and Rescue", "Brig Physician")//CS add-BrigPhys
 
 /datum/gear/suit/snowsuit/science
 	display_name = "snowsuit, science"

@@ -202,7 +202,7 @@
 /datum/gear/shoes/boots/winter/security
 	display_name = "security winter boots"
 	path = /obj/item/clothing/shoes/boots/winter/security
-	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Detective","Blueshield Guard","Security Pilot") //YW ADDITIONS
+	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Detective","Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS //CS add-Brig Phys
 
 /datum/gear/shoes/boots/winter/science
 	display_name = "science winter boots"

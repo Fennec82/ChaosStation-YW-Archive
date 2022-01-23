@@ -54,7 +54,7 @@
 
 /datum/gear/accessory/holster
 	display_name = "holster selection (Security, SM, HoP, Exploration)"
-	allowed_roles = list("Site Manager", "Head of Personnel", "Security Officer", "Warden", "Head of Security","Detective","Field Medic","Explorer","Pathfinder","Talon Captain","Talon Guard","Blueshield Guard","Security Pilot") //YW ADDITIONS)
+	allowed_roles = list("Site Manager", "Head of Personnel", "Security Officer", "Warden", "Head of Security","Detective","Field Medic","Explorer","Pathfinder","Talon Captain","Talon Guard","Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS) //CS add-Brig Phys
 
 /datum/gear/accessory/brown_vest
 	display_name = "webbing, brown (Eng, Sec, Med, Exploration, Miner)"
@@ -62,11 +62,11 @@
 
 /datum/gear/accessory/black_vest
 	display_name = "webbing, black (Eng, Sec, Med, Exploration, Miner)"
-	allowed_roles = list("Engineer","Atmospheric Technician","Chief Engineer","Security Officer","Detective","Head of Security","Warden","Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Explorer","Pathfinder","Shaft Miner","Talon Captain","Talon Doctor","Talon Engineer","Talon Guard", "Blueshield Guard","Security Pilot") //YW ADDITIONS
+	allowed_roles = list("Engineer","Atmospheric Technician","Chief Engineer","Security Officer","Detective","Head of Security","Warden","Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Explorer","Pathfinder","Shaft Miner","Talon Captain","Talon Doctor","Talon Engineer","Talon Guard", "Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS //CS add-Brig Phys
 
 /datum/gear/accessory/white_vest
 	display_name = "webbing, white (Medical)"
-	allowed_roles = list("Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Talon Doctor")
+	allowed_roles = list("Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Talon Doctor", "Brig Physician") //CS add-Brig Phys
 
 /datum/gear/accessory/brown_drop_pouches
 	display_name = "drop pouches, brown (Eng, Sec, Med, Exploration, Miner)"
@@ -74,23 +74,23 @@
 
 /datum/gear/accessory/black_drop_pouches
 	display_name = "drop pouches, black (Eng, Sec, Med, Exploration, Miner)"
-	allowed_roles = list("Engineer","Atmospheric Technician","Chief Engineer","Security Officer","Detective","Head of Security","Warden","Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Explorer","Pathfinder","Shaft Miner","Talon Captain","Talon Doctor","Talon Engineer","Talon Guard", "Blueshield Guard","Security Pilot") //YW ADDITIONS
+	allowed_roles = list("Engineer","Atmospheric Technician","Chief Engineer","Security Officer","Detective","Head of Security","Warden","Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Explorer","Pathfinder","Shaft Miner","Talon Captain","Talon Doctor","Talon Engineer","Talon Guard", "Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS //CS add-Brig Phys
 
 /datum/gear/accessory/white_drop_pouches
 	display_name = "drop pouches, white (Medical)"
-	allowed_roles = list("Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Talon Doctor")
+	allowed_roles = list("Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Talon Doctor", "Brig Physician") //CS add-Brig Phys
 
 /datum/gear/accessory/bluespace
 	display_name = "bluespace badge (Eng, Sec, Med, Exploration, Miner)"
 	path = /obj/item/clothing/accessory/storage/bluespace
-	allowed_roles = list("Engineer","Atmospheric Technician","Chief Engineer","Security Officer","Detective","Head of Security","Warden","Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Explorer","Pathfinder","Shaft Miner","Talon Captain","Talon Doctor","Talon Engineer","Talon Guard")
+	allowed_roles = list("Engineer","Atmospheric Technician","Chief Engineer","Security Officer","Detective","Head of Security","Warden","Paramedic","Chief Medical Officer","Medical Doctor","Chemist","Field Medic","Explorer","Pathfinder","Shaft Miner","Talon Captain","Talon Doctor","Talon Engineer","Talon Guard", "Brig Physician") //CS add-Brig Phys
 	cost = 2
 
 /datum/gear/accessory/webbing
 	cost = 1
 
 /datum/gear/accessory/stethoscope
-	allowed_roles = list("Chief Medical Officer","Medical Doctor","Chemist","Psychiatrist","Paramedic","Field Medic","Talon Doctor")
+	allowed_roles = list("Chief Medical Officer","Medical Doctor","Chemist","Psychiatrist","Paramedic","Field Medic","Talon Doctor", "Brig Physician")//CS add-Brig Phys
 
 /datum/gear/accessory/khcrystal
 	display_name = "Life Crystal"

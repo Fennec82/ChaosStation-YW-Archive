@@ -1,5 +1,5 @@
 /datum/gear/shoes/boots/winter/medical
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Field Medic")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Field Medic", "Brig Physician") //CS addition-Brig doc
 
 /datum/gear/shoes/black/cuffs
 	display_name = "legwraps, black"

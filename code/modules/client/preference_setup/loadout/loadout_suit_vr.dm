@@ -74,7 +74,7 @@
 /datum/gear/suit/roles/medical/ems_jacket
 	display_name = "first responder jacket"
 	path = /obj/item/clothing/suit/storage/toggle/fr_jacket
-	allowed_roles = list("Chief Medical Officer","Paramedic","Medical Doctor","Field Medic")
+	allowed_roles = list("Chief Medical Officer","Paramedic","Medical Doctor","Field Medic", "Brig Physician")//CS add-BrigPhys
 
 //imo-superior 'martian' style jacket with the star-of-life design
 /datum/gear/suit/roles/medical/ems_jacket/alt
@@ -85,7 +85,7 @@
 /datum/gear/suit/roles/medical/paramedic_vest
 	display_name = "paramedic vest"
 	path = /obj/item/clothing/suit/storage/toggle/paramedic
-	allowed_roles = list("Chief Medical Officer","Paramedic","Medical Doctor","Field Medic")
+	allowed_roles = list("Chief Medical Officer","Paramedic","Medical Doctor","Field Medic", "Brig Physician") //CS add-BrigPhys
 
 //greek thing
 /datum/gear/suit/chiton

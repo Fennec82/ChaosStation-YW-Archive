@@ -18,7 +18,7 @@
 /datum/gear/suit/roles/medical/ems_jacket
 	display_name = "first responder jacket"
 	path = /obj/item/clothing/suit/storage/toggle/fr_jacket
-	allowed_roles = list("Chief Medical Officer","Paramedic","Medical Doctor")
+	allowed_roles = list("Chief Medical Officer","Paramedic","Medical Doctor", "Brig Physician") //CS add-BrigPhys
 
 /datum/gear/suit/roles/medical/ems_jacket/alt
 	display_name = "first responder jacket, alt."

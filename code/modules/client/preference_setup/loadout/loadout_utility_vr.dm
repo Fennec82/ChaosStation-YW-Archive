@@ -35,7 +35,7 @@
 /datum/gear/utility/dufflebag/med
 	display_name = "medical dufflebag"
 	path = /obj/item/weapon/storage/backpack/dufflebag/med
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist","Psychiatrist","Field Medic")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist","Psychiatrist","Field Medic","Brig Physician") //CS addition-Brig Doc
 
 /datum/gear/utility/dufflebag/med/emt
 	display_name = "EMT dufflebag"
@@ -44,7 +44,7 @@
 /datum/gear/utility/dufflebag/sec
     display_name = "security Dufflebag"
     path = /obj/item/weapon/storage/backpack/dufflebag/sec
-    allowed_roles = list("Head of Security","Warden","Detective","Security Officer","Blueshield Guard","Security Pilot")//YW ADDITIONS
+    allowed_roles = list("Head of Security","Warden","Detective","Security Officer","Blueshield Guard","Security Pilot","Brig Physician")//YW ADDITIONS //CS addition-Brig Doc
 
 /datum/gear/utility/dufflebag/eng
 	display_name = "engineering dufflebag"

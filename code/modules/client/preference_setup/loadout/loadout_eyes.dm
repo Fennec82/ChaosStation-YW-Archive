@@ -66,7 +66,7 @@
 /datum/gear/eyes/security
 	display_name = "Security HUD (Security)"
 	path = /obj/item/clothing/glasses/hud/security
-	allowed_roles = list("Security Officer","Head of Security","Warden", "Detective","Blueshield Guard","Security Pilot") //YW ADDITIONS
+	allowed_roles = list("Security Officer","Head of Security","Warden", "Detective","Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS //CS addition-Brigphys
 
 /datum/gear/eyes/security/prescriptionsec
 	display_name = "Security HUD, prescription (Security)"
@@ -87,7 +87,7 @@
 /datum/gear/eyes/medical
 	display_name = "Medical HUD (Medical)"
 	path = /obj/item/clothing/glasses/hud/health
-	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Search and Rescue")
+	allowed_roles = list("Medical Doctor","Chief Medical Officer","Chemist","Paramedic","Geneticist", "Psychiatrist", "Search and Rescue", "Brig Physician") //CS addition-Brigphys
 
 /datum/gear/eyes/medical/prescriptionmed
 	display_name = "Medical HUD, prescription (Medical)"
@@ -138,7 +138,7 @@
 /datum/gear/eyes/sun
 	display_name = "Sunglasses (Security/Command)"
 	path = /obj/item/clothing/glasses/sunglasses
-	allowed_roles = list("Security Officer","Head of Security","Warden","Site Manager","Head of Personnel","Quartermaster","Internal Affairs Agent","Detective", "Blueshield Guard","Security Pilot") //YW ADDITIONS
+	allowed_roles = list("Security Officer","Head of Security","Warden","Site Manager","Head of Personnel","Quartermaster","Internal Affairs Agent","Detective", "Blueshield Guard","Security Pilot", "Brig Physician") //YW ADDITIONS //CS addition-Brigphys
 
 /datum/gear/eyes/sun/shades
 	display_name = "Sunglasses, fat (Security/Command)"
