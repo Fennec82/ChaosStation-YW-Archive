@@ -18,6 +18,7 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/xenoflora)
 "af" = (
@@ -721,6 +722,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/south_hall)
+"bH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/camera/network/research/xenobio,
+/turf/simulated/floor/tiled,
+/area/rnd/xenobiology/secure)
 "bI" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 4
@@ -883,6 +894,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/generic,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/hallway)
 "bX" = (
@@ -1012,6 +1024,10 @@
 	},
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora/lab_atmos)
+"cu" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel,
+/area/rnd/outpost/launch)
 "cv" = (
 /obj/structure/grille,
 /obj/structure/disposalpipe/segment{
@@ -1860,6 +1876,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/south_hall)
+"eI" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/rnd/xenobiology)
 "eJ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -3007,6 +3027,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
 "hq" = (
@@ -4276,6 +4297,10 @@
 	},
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora/lab_atmos)
+"kD" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/maintenance/shelter)
 "kE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -5904,6 +5929,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/outpost/mixing)
 "oE" = (
@@ -7090,11 +7116,9 @@
 /turf/simulated/mineral/floor/ignore_mapgen,
 /area/rnd/outpost/mixing)
 "rj" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/rnd/outpost/heating)
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/rnd/xenobiology/secure)
 "rk" = (
 /obj/machinery/mineral/processing_unit_console,
 /turf/simulated/wall/r_wall,
@@ -7394,6 +7418,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/storage)
 "sa" = (
@@ -7406,6 +7431,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora)
 "sd" = (
@@ -7729,6 +7755,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/outpost/research/anomaly_analysis)
+"tf" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/rnd/xenobiology/surgery)
 "tg" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/unary/freezer,
@@ -7907,6 +7937,7 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/hallway)
 "tF" = (
@@ -8119,6 +8150,10 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/rnd/xenobiology/hallway)
+"ul" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel,
+/area/rnd/xenobiology/control)
 "um" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -8399,6 +8434,7 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 8
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/outpost/hallway)
 "uJ" = (
@@ -8578,6 +8614,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/steel,
 /area/rnd/xenobiology/hallway)
 "vh" = (
@@ -8637,6 +8674,17 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+/turf/simulated/floor/tiled,
+/area/rnd/hallway)
+"vp" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/rnd/hallway)
 "vq" = (
@@ -9671,6 +9719,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/storage)
 "xZ" = (
@@ -11547,6 +11596,10 @@
 /obj/item/clothing/glasses/science,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
+"Cm" = (
+/obj/machinery/camera/network/research/xenobio,
+/turf/simulated/floor/tiled/white,
+/area/rnd/xenobiology)
 "Cn" = (
 /obj/machinery/door/airlock/glass_mining{
 	name = "Mining Station EVA";
@@ -12131,6 +12184,7 @@
 /turf/simulated/floor/tiled,
 /area/outpost/research/tempstorage)
 "DH" = (
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/lockers)
 "DI" = (
@@ -12777,6 +12831,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/secure)
 "Fe" = (
@@ -12876,6 +12931,13 @@
 /obj/machinery/portable_atmospherics/powered/pump/huge/stationary/purge,
 /turf/simulated/floor/reinforced/airless,
 /area/rnd/outpost/mixing)
+"Fp" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 5
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/rnd/xenobiology/xenoflora)
 "Fq" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled,
@@ -12953,6 +13015,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/hydro,
 /area/rnd/xenobiology/xenoflora/lab_atmos)
 "FF" = (
@@ -13406,6 +13469,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/secure)
 "GM" = (
@@ -13865,6 +13929,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/secure)
+"HI" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/rnd/xenobiology/xenoflora_storage)
 "HJ" = (
 /obj/structure/table/steel,
 /obj/machinery/cell_charger,
@@ -14054,6 +14122,7 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/workshop)
 "Ij" = (
@@ -14917,6 +14986,15 @@
 "Ki" = (
 /turf/simulated/wall/r_wall,
 /area/rnd/test_area)
+"Kj" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/machinery/camera/network/civilian{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/maintenance/shelter)
 "Kk" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
 /turf/simulated/floor/wood,
@@ -15584,6 +15662,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/steel_dirty,
 /area/rnd/xenobiology/xenoflora_storage)
 "LP" = (
@@ -15703,6 +15782,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/west_hall)
 "Md" = (
@@ -15978,6 +16058,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/maintenance/shelter2)
+"ML" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/rnd/hallway)
 "MM" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -17372,6 +17461,7 @@
 	dir = 1;
 	icon_state = "pipe-j2"
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/rnd/hallway)
 "Qb" = (
@@ -17442,6 +17532,15 @@
 /obj/machinery/atmospherics/binary/pump,
 /turf/simulated/floor/tiled/white,
 /area/rnd/outpost/heating)
+"Qn" = (
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/rnd/xenobiology)
 "Qo" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -17483,6 +17582,11 @@
 /obj/fiftyspawner/steel,
 /turf/simulated/floor/tiled/white,
 /area/rnd/outpost/heating)
+"Qu" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/rnd/xenobiology/secure)
 "Qv" = (
 /obj/machinery/light{
 	dir = 4
@@ -18986,6 +19090,7 @@
 	dir = 6
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/radio)
 "Uf" = (
@@ -21112,6 +21217,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/xenoflora/lab_atmos)
 "Zj" = (
@@ -34019,7 +34125,7 @@ Zl
 qo
 Ix
 dA
-zO
+cu
 lG
 bv
 Ix
@@ -34043,7 +34149,7 @@ Tq
 pk
 JD
 ew
-rj
+bU
 Kz
 La
 TB
@@ -36623,7 +36729,7 @@ qA
 by
 yD
 PI
-UN
+Qn
 qf
 bf
 Pz
@@ -36933,13 +37039,13 @@ KS
 MT
 Qw
 ta
-ta
+eI
 am
 Og
 uZ
 PZ
 ta
-ta
+eI
 ta
 LK
 MT
@@ -37417,7 +37523,7 @@ SA
 SA
 SA
 MT
-ta
+Cm
 ta
 ta
 QH
@@ -37904,7 +38010,7 @@ Vb
 Nb
 tJ
 sV
-sV
+rj
 pI
 Nb
 BS
@@ -38064,7 +38170,7 @@ Nb
 Dn
 Nb
 Nb
-NF
+bH
 Uh
 Zt
 EX
@@ -38113,7 +38219,7 @@ Eo
 NU
 Eo
 qg
-Eo
+vp
 NU
 zp
 eo
@@ -38426,7 +38532,7 @@ Yk
 cq
 zd
 zd
-zd
+Kj
 yF
 JQ
 qz
@@ -38575,7 +38681,7 @@ SA
 Rz
 HA
 kV
-Ll
+ul
 UP
 Et
 Rz
@@ -38730,7 +38836,7 @@ OA
 NA
 mG
 gf
-gf
+tf
 AR
 Zm
 SA
@@ -38748,7 +38854,7 @@ yF
 lr
 cq
 cq
-cq
+kD
 cq
 Zs
 nX
@@ -39030,7 +39136,7 @@ cb
 cb
 tV
 sV
-sV
+rj
 sV
 sV
 RL
@@ -39563,7 +39669,7 @@ Zl
 Zl
 JU
 JQ
-Xa
+ML
 hF
 hF
 hF
@@ -39681,7 +39787,7 @@ sV
 sV
 qL
 JS
-JS
+Qu
 JS
 lz
 sV
@@ -39716,7 +39822,7 @@ pq
 Bi
 qB
 ur
-TZ
+Fp
 HC
 oh
 Zl
@@ -40687,7 +40793,7 @@ JE
 eq
 WG
 qB
-TZ
+Fp
 aC
 Pt
 oh
@@ -41490,7 +41596,7 @@ Ex
 on
 VZ
 Qb
-on
+HI
 nL
 gI
 oh

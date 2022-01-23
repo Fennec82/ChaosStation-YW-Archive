@@ -980,6 +980,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/medical/medbayupper)
 "cu" = (
@@ -1839,6 +1840,9 @@
 /area/security/breakroom)
 "ei" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/camera/network/exploration{
+	c_tag = "Exploration Meeting Room North"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cryogaia/station/excursion_dock)
 "ej" = (
@@ -3423,6 +3427,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/cryogaia/station/explorer_prep)
 "hL" = (
@@ -4996,6 +5001,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/wood,
 /area/chapel/monastery/upper)
 "kI" = (
@@ -6914,6 +6920,9 @@
 /obj/machinery/light/no_nightshift{
 	dir = 4
 	},
+/obj/machinery/camera/network/security{
+	c_tag = "Southeast Tower - Upper"
+	},
 /turf/simulated/floor/wood,
 /area/security/breakroom)
 "pf" = (
@@ -7074,6 +7083,17 @@
 "pY" = (
 /turf/simulated/open,
 /area/medical/medbayskybridge)
+"pZ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/camera/network/mining{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cryogaia/station/hallway/primary/upper/south)
 "qa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/standard,
@@ -7185,6 +7205,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/civilian/atrium/upper)
 "qV" = (
@@ -7672,6 +7693,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cryogaia/station/hallway/primary/upper/south)
+"tB" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/chapel/monastery/upper)
+"tD" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/cryogaia/station/explorer_meeting)
 "tE" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -8360,6 +8389,11 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/chapel/monastery/upper)
+"xf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/medical/medbayskybridge)
 "xi" = (
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/tiled/techmaint,
@@ -8657,6 +8691,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medbayupper)
+"yF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/chapel/monastery/upper)
 "yJ" = (
 /turf/simulated/open,
 /area/borealis2/outdoors/grounds/checkpoint)
@@ -9652,6 +9696,13 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled,
 /area/security/watchtower)
+"Eb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/chapel/monastery/upper)
 "Ed" = (
 /obj/machinery/space_heater,
 /obj/structure/railing/grey,
@@ -10252,6 +10303,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
+"HA" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/civilian/atrium/upper)
 "HC" = (
 /obj/structure/catwalk,
 /obj/structure/railing/grey{
@@ -10305,6 +10360,18 @@
 	},
 /turf/simulated/open,
 /area/constructionsite/cryogaia/upper)
+"HO" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/medical/medbayupper)
 "HS" = (
 /turf/simulated/floor/tiled,
 /area/cryogaia/station/excursion_dock)
@@ -10457,6 +10524,12 @@
 	},
 /turf/simulated/floor/plating/snow/plating/cryogaia,
 /area/borealis2/outdoors/grounds/upper/solars)
+"IR" = (
+/obj/machinery/camera/network/mining{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cryogaia/station/hallway/primary/upper/south)
 "IS" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11025,6 +11098,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark,
 /area/chapel/monastery/upper)
 "Lv" = (
@@ -11063,6 +11137,21 @@
 "LK" = (
 /turf/simulated/open,
 /area/borealis2/outdoors/grounds/tower/southeast)
+"LL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/wood,
+/area/chapel/monastery/music)
 "LO" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal{
 	dir = 4
@@ -11196,6 +11285,16 @@
 "MV" = (
 /turf/simulated/wall,
 /area/crew_quarters/medbreak)
+"Nb" = (
+/obj/effect/floor_decal/corner_oldtile/gray{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_oldtile/gray{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/cryogaia/station/pathfinder_office)
 "Nd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -11353,6 +11452,10 @@
 "NU" = (
 /turf/simulated/open,
 /area/borealis2/outdoors/grounds/tower/south)
+"NV" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/cryogaia/station/explorer_entrance)
 "NX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/multi_tile/metal/mait{
@@ -11493,6 +11596,13 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/borealis2/outdoors/grounds/checkpoint)
+"OB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/wood,
+/area/security/breakroom)
 "OF" = (
 /obj/effect/landmark/start{
 	name = "Medical Doctor"
@@ -11769,6 +11879,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/chapel/monastery/upper)
 "PZ" = (
@@ -11856,6 +11967,10 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techmaint,
+/area/cryogaia/station/hallway/primary/upper/south)
+"Qw" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
 /area/cryogaia/station/hallway/primary/upper/south)
 "Qx" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -12446,6 +12561,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techmaint,
 /area/quartermaster/miningdock)
+"Ua" = (
+/obj/machinery/hologram/holopad,
+/obj/machinery/camera/network/mining{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cryogaia/station/hallway/primary/upper/south)
 "Ub" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -12545,6 +12667,12 @@
 	},
 /turf/simulated/open/cryogaia,
 /area/borealis2/outdoors/grounds/checkpoint)
+"Uu" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel_grid,
+/area/cryogaia/station/explorer_prep)
 "Uw" = (
 /obj/structure/catwalk,
 /obj/structure/railing/grey,
@@ -12945,6 +13073,21 @@
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/open,
 /area/chapel/monastery/upper)
+"Wq" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/medical/medbayupper)
 "Wr" = (
 /obj/structure/sign/warning/falling,
 /turf/simulated/wall,
@@ -19826,7 +19969,7 @@ Wx
 wm
 ck
 wm
-wm
+HO
 WI
 XH
 py
@@ -20172,7 +20315,7 @@ AN
 Dg
 tI
 tI
-hv
+OB
 tI
 XK
 fz
@@ -20628,7 +20771,7 @@ MV
 MV
 tq
 aV
-ZW
+Wq
 Ej
 tq
 AN
@@ -23374,7 +23517,7 @@ NL
 NL
 NL
 NL
-NL
+xf
 NL
 NL
 Uy
@@ -26467,12 +26610,12 @@ AN
 AN
 DL
 Oa
-sa
+HA
 sa
 TQ
 EC
 EC
-sa
+HA
 wW
 rC
 EC
@@ -26482,7 +26625,7 @@ EC
 EC
 LY
 sa
-sa
+HA
 EC
 EC
 TQ
@@ -26493,7 +26636,7 @@ EC
 EC
 LY
 fe
-sa
+HA
 zw
 Nj
 AN
@@ -28945,7 +29088,7 @@ fS
 kU
 vD
 vD
-vD
+tD
 vD
 vD
 mQ
@@ -29100,7 +29243,7 @@ hA
 hS
 in
 in
-in
+Uu
 jG
 kh
 fS
@@ -29274,7 +29417,7 @@ mq
 vD
 mT
 kS
-bR
+Qw
 bJ
 mD
 ri
@@ -29437,7 +29580,7 @@ vD
 mV
 kS
 bR
-bJ
+pZ
 mD
 ri
 va
@@ -29917,7 +30060,7 @@ fS
 kV
 vD
 vD
-vD
+tD
 vD
 vD
 mY
@@ -30014,7 +30157,7 @@ Av
 kD
 zv
 Ud
-Pe
+LL
 Ud
 Ev
 ci
@@ -30412,7 +30555,7 @@ ou
 bJ
 po
 bR
-bR
+Qw
 Cw
 Bn
 bJ
@@ -30726,7 +30869,7 @@ ia
 ia
 kv
 lz
-kv
+NV
 kv
 mA
 mK
@@ -30895,7 +31038,7 @@ kv
 ne
 jR
 ow
-bR
+Ua
 mD
 eT
 eT
@@ -31066,7 +31209,7 @@ gi
 gi
 mD
 Ru
-bR
+IR
 mD
 va
 rx
@@ -31208,7 +31351,7 @@ iI
 je
 hN
 jV
-kv
+NV
 kE
 jR
 lE
@@ -31311,7 +31454,7 @@ eF
 Dt
 WZ
 WZ
-WZ
+tB
 wq
 pW
 WZ
@@ -31527,7 +31670,7 @@ Cl
 jD
 iu
 hP
-ik
+Nb
 iK
 jg
 jA
@@ -31699,7 +31842,7 @@ kL
 kv
 kv
 kv
-kv
+NV
 kv
 kv
 kv
@@ -31714,7 +31857,7 @@ BH
 BH
 KB
 Mc
-bR
+Qw
 mD
 va
 rx
@@ -31785,7 +31928,7 @@ AN
 AN
 kD
 HK
-jS
+yF
 Fq
 oZ
 Ph
@@ -31959,7 +32102,7 @@ fB
 WZ
 Fq
 WZ
-WZ
+tB
 kD
 Oy
 kD
@@ -32362,7 +32505,7 @@ OP
 sH
 fk
 wC
-bR
+IR
 mD
 va
 rx
@@ -32673,7 +32816,7 @@ Ae
 bX
 mk
 QN
-KH
+gE
 KH
 KH
 ms
@@ -32919,12 +33062,12 @@ Sq
 Sq
 dN
 WZ
-wq
+Eb
 WZ
 WZ
 WZ
 WZ
-WZ
+tB
 WR
 WZ
 WZ
@@ -33091,7 +33234,7 @@ Gr
 WZ
 WZ
 WZ
-WZ
+tB
 WZ
 WZ
 dN
