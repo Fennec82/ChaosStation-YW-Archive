@@ -64,7 +64,7 @@
 
 //Brig Physician
 /obj/item/clothing/under/yw/rank/security/brigphys
-	desc = "Jumpsuit for Brig Physician it has both medical and security protection."
+	desc = "A jumpsuit for a Brig Physician. It has both medical and security protection."
 	name = "brig physician's jumpsuit"
 	icon = 'icons/mob/uniform_yw.dmi'
 	icon_state = "brigphysician"
