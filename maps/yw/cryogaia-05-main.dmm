@@ -332,31 +332,14 @@
 /turf/simulated/floor/tiled/freezer,
 /area/medical/surgery_storage)
 "afT" = (
-/obj/structure/grille,
 /obj/structure/window/reinforced,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "Cell 1 Blastdoor";
-	name = "Security Blast Door";
-	opacity = 0
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/structure/cable/green{
+	d1 = 1;
 	d2 = 2;
-	icon_state = "0-2"
+	icon_state = "1-2"
 	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+006
-	},
-/obj/machinery/door_timer/cell_1,
-/turf/simulated/floor/plating,
+/obj/structure/closet/secure_closet/brigphys,
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "afX" = (
 /obj/structure/railing{
@@ -2397,6 +2380,9 @@
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
+	},
+/obj/structure/cable/green{
+	icon_state = "16-0"
 	},
 /turf/simulated/floor/tiled/steel,
 /area/security/security_equiptment_storage)
@@ -6032,6 +6018,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/soporific,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/soporific,
 /turf/simulated/floor/tiled/white,
 /area/security/security_aid_station)
 "cmD" = (
@@ -7433,7 +7421,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/lawoffice)
 "cMa" = (
-/turf/simulated/floor/tiled/steel,
+/obj/machinery/optable,
+/obj/item/weapon/storage/firstaid/surgery/sec,
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "cMw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -15907,29 +15900,15 @@
 /turf/simulated/floor/plating,
 /area/chapel/monastery/atmos)
 "gak" = (
-/obj/structure/grille,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "Cell 1 Blastdoor";
-	name = "Security Blast Door";
-	opacity = 0
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+006
-	},
-/turf/simulated/floor/plating,
+/obj/structure/table/standard,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/brute,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/burn,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/oxy,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/organ,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/purity,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/biginjector/toxin,
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "gap" = (
 /obj/machinery/atmospherics/valve,
@@ -16918,28 +16897,8 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/hallway/secondary/exit)
 "grh" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "Cell 1 Blastdoor";
-	name = "Security Blast Door";
-	opacity = 0
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable/green,
-/turf/simulated/floor/plating,
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "grs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -20864,16 +20823,9 @@
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
 "hTO" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/white,
-/area/security/security_aid_station)
+/obj/machinery/firealarm,
+/turf/simulated/wall,
+/area/security/brig)
 "hTQ" = (
 /obj/machinery/door/airlock/glass_mining{
 	name = "Cargo Bay";
@@ -21270,6 +21222,14 @@
 "ibW" = (
 /turf/simulated/wall/r_wall,
 /area/security/nuke_storage)
+"icd" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/security/brig)
 "icn" = (
 /obj/machinery/camera/network/ert,
 /turf/simulated/floor/tiled/techmaint,
@@ -23544,7 +23504,22 @@
 "iZr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/steel,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "iZs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -28009,12 +27984,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/hologram/holopad,
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
 /turf/simulated/floor/tiled/white,
 /area/security/security_aid_station)
 "kMh" = (
@@ -28818,16 +28787,16 @@
 /turf/simulated/floor/tiled/steel,
 /area/medical/medbay_emt_bay)
 "lcO" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/steel,
 /area/security/security_cell_hallway)
@@ -38031,6 +38000,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/cable/green{
+	icon_state = "16-0"
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/barrestroom)
 "oxA" = (
@@ -41925,7 +41897,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "pVO" = (
 /obj/structure/cable{
@@ -46270,15 +46242,14 @@
 /turf/simulated/floor/outdoors/snow/snow/cryogaia,
 /area/borealis2/outdoors/exterior)
 "rFC" = (
-/obj/structure/closet/secure_closet/brig{
-	id = "Cell 1";
-	name = "Cell 1 Locker"
-	},
 /obj/machinery/camera/network/prison{
 	c_tag = "Brig Cell 1"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled,
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "rFI" = (
 /obj/machinery/teleport/station,
@@ -46549,7 +46520,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/obj/machinery/sleep_console,
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "rNl" = (
 /obj/item/weapon/stool/padded,
@@ -47096,22 +47071,16 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/starboard)
 "rWi" = (
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "Cell 1 Blastdoor";
-	name = "Security Blast Door";
-	opacity = 0
-	},
-/obj/machinery/door/window/brigdoor/southleft{
-	id = "Cell 1";
-	name = "Cell 1";
-	req_access = list(2)
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/obj/structure/window/reinforced,
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "16-0"
+	},
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "rWG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -49002,12 +48971,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/research/testingrange)
 "sHq" = (
-/obj/machinery/flasher{
-	id = "Cell 1";
-	pixel_x = -28
-	},
-/obj/structure/bed/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "sHQ" = (
 /obj/structure/cable{
@@ -49132,7 +49096,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "sKY" = (
 /obj/machinery/hologram/holopad,
@@ -54193,6 +54157,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
+/obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white,
 /area/security/security_aid_station)
 "uUU" = (
@@ -57077,18 +57042,6 @@
 /turf/simulated/floor/tiled,
 /area/civilian/atrium/central)
 "wdz" = (
-/obj/machinery/button/remote/blast_door{
-	id = "Cell 1 Blastdoor";
-	name = "Cell 1 Door";
-	pixel_x = -32;
-	pixel_y = 28;
-	req_access = list(2)
-	},
-/obj/machinery/door_timer/cell_3{
-	id = "Cell 1";
-	name = "Cell 1";
-	pixel_y = -64
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -60642,6 +60595,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/rnd/phoronics)
+"xsW" = (
+/obj/machinery/oxygen_pump/anesthetic{
+	pixel_y = 2
+	},
+/turf/simulated/wall,
+/area/security/brig)
 "xtd" = (
 /obj/item/weapon/stool/padded,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -60982,7 +60941,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
 /area/security/brig)
 "xzp" = (
 /obj/structure/cable/green{
@@ -72239,8 +72203,8 @@ ndS
 ndS
 lOW
 ifH
-ifH
-ifH
+hTO
+xsW
 ifH
 jiq
 vrf
@@ -72726,7 +72690,7 @@ xHN
 hqj
 pVE
 sKX
-cMa
+icd
 afT
 lcO
 gEj
@@ -72888,7 +72852,7 @@ jdk
 hqj
 gak
 grh
-ifH
+sHq
 ifH
 izq
 xct
@@ -73049,7 +73013,7 @@ pOt
 cLj
 hqj
 tga
-hTO
+sPD
 wpU
 nXB
 jGV
