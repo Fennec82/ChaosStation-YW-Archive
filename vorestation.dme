@@ -4269,4 +4269,8 @@
 #include "modular_chaosstation\code\modules\clothing\suits\armor_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\suits\brigphys_cs.dm"
 #include "modular_chaosstation\code\modules\clothing\under\extrauniforms_cs.dm"
+#include "modular_chompstation\code\modules\mob\new_player\sprite_accessories_ear_ch.dm"
+#include "modular_chompstation\code\modules\mob\new_player\sprite_accessories_tail_ch.dm"
+#include "modular_chompstation\code\modules\mob\new_player\sprite_accessories_taur_ch.dm"
+#include "modular_chompstation\code\modules\mob\new_player\sprite_accessories_wing_ch.dm"
 // END_INCLUDE
