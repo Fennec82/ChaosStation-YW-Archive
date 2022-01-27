@@ -30434,6 +30434,18 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/research/testingrange)
+"lLv" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel,
+/area/hallway/primary/aft)
 "lLA" = (
 /obj/effect/floor_decal/snow/floor/edges{
 	dir = 1
@@ -36134,6 +36146,7 @@
 /obj/structure/disposalpipe/sortjunction/wildcard/flipped{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/steel,
 /area/hallway/primary/aft)
 "nMJ" = (
@@ -76096,7 +76109,7 @@ qMn
 aBw
 rNt
 bNN
-dPF
+lLv
 dPF
 oxb
 dPF
