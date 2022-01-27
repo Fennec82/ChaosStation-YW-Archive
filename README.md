@@ -6,7 +6,7 @@
 
 Going to make a Pull Request? Make sure you read the [CONTRIBUTING.md](.github/CONTRIBUTING.md) first!
 
-ChaosStation - YW  is a fork of the Yawn-Wider code branch which is a fork of the VOREStation code branch which is a fork of the Polaris code branch, itself a fork of the Baystation12 code branch, for the game Space Station 13.
+ChaosStation - YW  is a fork of the Yawn-Wider and Chompstation code branches which are forks of the VOREStation code branch which is a fork of the Polaris code branch, itself a fork of the Baystation12 code branch, for the game Space Station 13.
 
 ![Render Nanomaps](https://github.com/VOREStation/VOREStation/workflows/Render%20Nanomaps/badge.svg)
 
