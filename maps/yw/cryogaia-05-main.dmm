@@ -7720,6 +7720,10 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/security/airlock)
+"cTv" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/starboard)
 "cTC" = (
 /turf/simulated/wall,
 /area/hallway/primary/central_one)
@@ -18901,7 +18905,7 @@
 /area/shuttle/residential)
 "hir" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/storage/box/beakers,
+/obj/machinery/chemical_dispenser/ert,
 /turf/simulated/floor/tiled/white,
 /area/rnd/phoronics)
 "his" = (
@@ -21183,11 +21187,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay_primary_storage)
-"iaZ" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor/tiled,
-/area/quartermaster/storage)
 "ibh" = (
 /obj/effect/floor_decal/snow/floor/edges3{
 	dir = 1
@@ -27933,6 +27932,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/secondary/entry/docking_lounge)
+"kKL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/starboard)
 "kKR" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -32812,9 +32818,7 @@
 /turf/simulated/floor/plating,
 /area/storage/tech)
 "mEJ" = (
-/obj/machinery/vending/coffee{
-	dir = 8
-	},
+/obj/structure/closet/wardrobe/science_white,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "mER" = (
@@ -43190,6 +43194,7 @@
 "qwf" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/solution_trays,
+/obj/item/weapon/storage/box/beakers,
 /turf/simulated/floor/tiled/white,
 /area/rnd/phoronics)
 "qww" = (
@@ -44466,7 +44471,6 @@
 /area/civilian/atrium/central)
 "qUf" = (
 /obj/machinery/hologram/holopad,
-/obj/structure/flora/pottedplant/xmas,
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/workshop)
 "qUW" = (
@@ -45511,7 +45515,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/workshop)
 "rrP" = (
@@ -57755,9 +57758,7 @@
 /turf/simulated/floor/tiled/white,
 /area/security/security_aid_station)
 "wpW" = (
-/obj/machinery/lapvend{
-	dir = 8
-	},
+/obj/structure/closet/l3closet/scientist/phoronics,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "wqa" = (
@@ -58159,6 +58160,7 @@
 	pixel_y = 22
 	},
 /obj/random/medical/lite,
+/obj/item/device/sleevemate,
 /turf/simulated/floor/tiled/white,
 /area/security/security_aid_station)
 "wxQ" = (
@@ -80984,7 +80986,7 @@ nVY
 wxQ
 nti
 qex
-tQQ
+kKL
 bng
 tkf
 anR
@@ -81636,7 +81638,7 @@ tQQ
 ivX
 dbd
 ivX
-ivX
+cTv
 xLH
 nAd
 wcF
@@ -82432,7 +82434,7 @@ trn
 vfT
 uJZ
 tHI
-tHI
+ejt
 ejt
 gPF
 llN
@@ -82590,7 +82592,7 @@ rOC
 keN
 jdS
 jWN
-iaZ
+hSU
 ara
 hSU
 bgh
