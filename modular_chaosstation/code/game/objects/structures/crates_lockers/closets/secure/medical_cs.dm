@@ -17,6 +17,7 @@
 		/obj/item/device/radio/headset/headset_med,
 		/obj/item/device/radio/headset/headset_med/alt,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/medical,
+		/obj/item/weapon/storage/secure/briefcase/ml3m_pack_med,
 		/obj/item/clothing/shoes/boots/winter/medical,
 		/obj/item/device/defib_kit/compact/loaded,
 		/obj/item/weapon/storage/firstaid/adv,

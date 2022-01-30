@@ -57,6 +57,11 @@
 	new /obj/item/ammo_casing/microbattery/medical/brute(src)
 	new /obj/item/ammo_casing/microbattery/medical/burn(src)
 	new /obj/item/ammo_casing/microbattery/medical/stabilize(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
 
 /obj/item/weapon/storage/secure/briefcase/ml3m_pack_cmo
 	name = "\improper Advanced ML-3 \'Medigun\' kit"
@@ -74,4 +79,8 @@
 	new /obj/item/ammo_casing/microbattery/medical/burn(src)
 	new /obj/item/ammo_casing/microbattery/medical/stabilize(src)
 	new /obj/item/ammo_casing/microbattery/medical/toxin(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
+	new /obj/item/ammo_casing/microbattery/medical/omni(src)
 	new /obj/item/ammo_casing/microbattery/medical/omni(src)
