@@ -256,11 +256,11 @@
 
 /obj/structure/closet/secure_closet/injection
 	name = "lethal injections locker"
-	req_access = list(access_captain)
+	req_access = list(access_armory)// Chaosstation edit - Bring in line with our chain of command
 	closet_appearance = /decl/closet_appearance/secure_closet/courtroom
 
 	starts_with = list(
-		/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral = 2)
+		/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral = 5)
 
 GLOBAL_LIST_BOILERPLATE(all_brig_closets, /obj/structure/closet/secure_closet/brig)
 
