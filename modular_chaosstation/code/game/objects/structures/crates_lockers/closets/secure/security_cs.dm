@@ -98,3 +98,12 @@
 	if(prob(30))
 		starts_with += /obj/item/poster/nanotrasen
 	return ..()
+
+
+//Executionor's locker
+/obj/structure/closet/secure_closet/deathgiver
+	name = "executionor's locker"
+	req_access = list(access_armory)
+	closet_appearance = /decl/closet_appearance/tactical
+	starts_with = list(
+	/obj/item/weapon/rig/combat/empty = 2)
