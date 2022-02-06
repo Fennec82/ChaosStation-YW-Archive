@@ -310,6 +310,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/glass_security/death/dorm,
+/obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "alh" = (
@@ -447,6 +448,25 @@
 	},
 /turf/simulated/floor/lino,
 /area/chapel/office)
+"aqR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	name = "Station Intercom (General)";
+	pixel_y = 21
+	},
+/turf/simulated/floor/tiled,
+/area/security/perma)
 "arn" = (
 /turf/simulated/floor/tiled/dark,
 /area/chapel/chapel_morgue)
@@ -4533,6 +4553,10 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/item/device/radio/intercom/department/security{
+	dir = 1;
+	pixel_y = 21
+	},
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "cSZ" = (
@@ -7914,6 +7938,7 @@
 "eWJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/glass_security/death/dorm,
+/obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "eXa" = (
@@ -8895,6 +8920,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/maintroom5)
+"fFT" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/turf/simulated/floor/tiled,
+/area/security/perma)
 "fGj" = (
 /obj/structure/particle_accelerator/fuel_chamber,
 /turf/simulated/floor/reinforced,
@@ -30053,6 +30085,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/machinery/firealarm{
+	layer = 3.3;
+	pixel_y = 26
+	},
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "rWc" = (
@@ -35640,6 +35676,11 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/camera/network/security,
+/obj/item/device/radio/intercom{
+	dir = 1;
+	name = "Common Channel";
+	pixel_y = 21
+	},
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "vde" = (
@@ -36618,6 +36659,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/device/radio/intercom/department/security{
+	dir = 1;
+	pixel_y = 21
+	},
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "vHM" = (
@@ -36863,6 +36908,10 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled,
 /area/security/perma)
@@ -45286,7 +45335,7 @@ tuF
 sNY
 mwn
 ueP
-fwo
+mnt
 xJS
 ueP
 lqO
@@ -45610,8 +45659,8 @@ xYU
 epl
 mwn
 ueP
-mnt
-yfc
+aqR
+fFT
 ueP
 lqO
 qce
