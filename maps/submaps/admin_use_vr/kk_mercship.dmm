@@ -2726,7 +2726,7 @@
 /area/ship/manta/recreation)
 "kF" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/weapon/storage/firstaid/surgery,
+/obj/item/weapon/storage/firstaid/surgery/syndie,
 /obj/item/stack/nanopaste/advanced,
 /obj/item/weapon/surgical/bone_clamp,
 /obj/item/weapon/surgical/scalpel/manager,
@@ -7230,6 +7230,13 @@
 /obj/item/weapon/storage/box/syndie_kit/ewar_voice,
 /obj/item/weapon/storage/box/syndie_kit/ewar_voice,
 /obj/item/weapon/storage/box/syndie_kit/ewar_voice,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
 /obj/item/weapon/card/emag,
 /obj/effect/floor_decal/techfloor{
 	dir = 8
