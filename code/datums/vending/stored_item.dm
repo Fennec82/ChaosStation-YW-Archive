@@ -8,6 +8,7 @@
 	var/amount = 0
 	var/list/instances		//What items are actually stored
 	var/stored				//The thing holding it is
+	var/persist_storable
 
 /datum/stored_item/New(var/stored, var/path, var/name = null, var/amount = 0)
 	src.item_path = path
@@ -42,11 +43,11 @@
 	var/atom/movable/product = instances[instances.len]	// Remove the last added product
 	instances -= product
 	product.forceMove(product_location)
-	//VOREStation Addition Start
-	if(istype(product, /obj))
-		var/obj/item = product
-		item.persist_storable = FALSE
-	//VOREStation Addition End
+	//VOREStation Addition Start //Commented out cause code borks - Fenneccommie82
+//	if(istype(product, /obj))
+//		var/obj/item = product
+//		item.persist_storable = FALSE
+	//VOREStation Addition End*/
 	return product
 
 /datum/stored_item/proc/add_product(var/atom/movable/product)

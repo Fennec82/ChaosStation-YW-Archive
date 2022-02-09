@@ -72,6 +72,8 @@ You can also set the stat of a NIF to NIF_TEMPFAIL without any issues to disable
 
 	var/list/planes_visible = list()
 
+	var/persist_storable
+
 //Constructor comes with a free AR HUD
 /obj/item/device/nif/New(var/newloc,var/wear,var/list/load_data)
 	..(newloc)
