@@ -72,6 +72,8 @@ You can also set the stat of a NIF to NIF_TEMPFAIL without any issues to disable
 
 	var/list/planes_visible = list()
 
+	var/persist_storable
+
 //Constructor comes with a free AR HUD
 /obj/item/device/nif/New(var/newloc,var/wear,var/list/load_data)
 	..(newloc)
@@ -202,6 +204,9 @@ You can also set the stat of a NIF to NIF_TEMPFAIL without any issues to disable
 	durability -= wear
 	savetofile = TRUE // YW EDIT
 
+	if(human)
+		persist_nif_data(human)
+
 	if(durability <= 0)
 		stat = NIF_TEMPFAIL
 		update_icon()
@@ -209,6 +214,13 @@ You can also set the stat of a NIF to NIF_TEMPFAIL without any issues to disable
 		if(human)
 			notify("Danger! General system insta#^!($",TRUE)
 			to_chat(human,"<span class='danger'>Your NIF vision overlays disappear and your head suddenly seems very quiet...</span>")
+
+//Repair update/check proc
+/obj/item/device/nif/proc/repair(var/repair = 0)
+	durability = min(durability + repair, initial(durability))
+
+	if(human)
+		persist_nif_data(human)
 
 //Attackby proc, for maintenance
 /obj/item/device/nif/attackby(obj/item/weapon/W, mob/user as mob)
@@ -239,6 +251,7 @@ You can also set the stat of a NIF to NIF_TEMPFAIL without any issues to disable
 			playsound(src, 'sound/items/Screwdriver.ogg', 50, 1)
 			open = FALSE
 			durability = initial(durability)
+			repair(initial(durability))
 			savetofile = TRUE // YW EDIT
 			stat = NIF_PREINSTALL
 			update_icon()
@@ -264,7 +277,7 @@ You can also set the stat of a NIF to NIF_TEMPFAIL without any issues to disable
 /obj/item/device/nif/proc/handle_install()
 	if(human.stat || !human.mind) //No stuff while KO or not sleeved
 		return FALSE
-
+	persist_storable = FALSE		//VOREStation edit - I am not sure if polaris has nifs, but just in case.
 	//Firsties
 	if(!install_done)
 		if(human.mind.name == owner)
