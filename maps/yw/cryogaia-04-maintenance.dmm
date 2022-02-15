@@ -11153,10 +11153,8 @@
 /area/crew_quarters/sleep/cryo)
 "haL" = (
 /obj/structure/table/steel,
-/obj/item/weapon/autopsy_scanner,
-/obj/item/weapon/surgical/scalpel,
-/obj/item/weapon/surgical/cautery,
 /obj/structure/disposalpipe/segment,
+/obj/item/weapon/storage/firstaid/surgery/medexaminer,
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/morgue)
 "haS" = (
@@ -29088,13 +29086,6 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/hydroponics)
-"rvV" = (
-/obj/structure/catwalk,
-/obj/structure/sign/christmas/lights{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/crew_quarters/kitchen/fish_farm)
 "rwC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -34667,19 +34658,6 @@
 	can_open = 1
 	},
 /area/maintenance/lowfloor3)
-"uHZ" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/structure/sign/christmas/lights,
-/turf/simulated/floor/plating,
-/area/hallway/lower/fore)
 "uId" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
