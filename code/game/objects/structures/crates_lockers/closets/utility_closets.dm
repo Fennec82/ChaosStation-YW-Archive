@@ -178,6 +178,13 @@
 		/obj/item/clothing/shoes/black = 2,
 		/obj/item/clothing/head/bomb_hood = 2)
 
+/obj/structure/closet/bombcloset/double/toxins
+	starts_with = list(
+		/obj/item/clothing/suit/bomb_suit/security = 2,
+		/obj/item/clothing/under/color/black = 2,
+		/obj/item/clothing/shoes/black = 2,
+		/obj/item/clothing/head/bomb_hood/security = 2)
+
 /obj/structure/closet/bombclosetsecurity
 	name = "\improper EOD closet"
 	desc = "It's a storage unit for explosion-protective suits."
