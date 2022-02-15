@@ -150,8 +150,9 @@
 		/obj/item/clothing/suit/bio_suit/cmo,
 		/obj/item/clothing/head/bio_hood/cmo,
 		/obj/item/clothing/shoes/white,
+		/obj/item/weapon/storage/firstaid/surgery/med, //Chaosstation add
 		/obj/item/weapon/storage/secure/briefcase/ml3m_pack_cmo, //Chaosstation add
-		/obj/item/weapon/reagent_containers/glass/beaker/vial, //VOREStation Add
+		/obj/item/weapon/reagent_containers/glass/beaker/vial = 2, //VOREStation Add //2-Chaos edit
 		/obj/item/weapon/storage/belt/medical) //VOREStation Add
 
 /obj/structure/closet/secure_closet/CMO/Initialize()
