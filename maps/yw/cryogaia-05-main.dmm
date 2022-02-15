@@ -10884,7 +10884,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/emergency_storage/emergency)
 "efL" = (
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/medical/equipstorage)
 "egg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -12282,13 +12282,7 @@
 /turf/simulated/floor/tiled,
 /area/teleporter)
 "eKt" = (
-/obj/structure/table/standard,
-/obj/item/weapon/storage/box/beakers,
-/obj/item/weapon/storage/box/syringes{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/weapon/storage/box/syringes,
+/obj/structure/closet/secure_closet/med_guns,
 /obj/machinery/alarm{
 	pixel_y = 22
 	},
@@ -14731,7 +14725,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/medical/equipstorage)
 "fIi" = (
 /obj/structure/cable/green{
@@ -15338,7 +15332,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/medical/equipstorage)
 "fTd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -20476,6 +20470,12 @@
 /obj/effect/floor_decal/corner/blue,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
+"hSK" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/equipstorage)
 "hSM" = (
 /obj/effect/floor_decal/snow/floor/edges,
 /obj/effect/floor_decal/snow/floor/edges3{
@@ -24796,7 +24796,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/medical/equipstorage)
 "jGs" = (
 /obj/structure/disposalpipe/segment,
@@ -27377,14 +27377,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/chapel/monastery)
 "kFu" = (
-/obj/item/clothing/accessory/stethoscope,
-/obj/item/clothing/accessory/stethoscope,
-/obj/item/clothing/accessory/stethoscope,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
+/obj/structure/closet/secure_closet/med_armor,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "kFX" = (
@@ -36554,6 +36547,9 @@
 /obj/effect/floor_decal/corner/paleblue/full{
 	dir = 4
 	},
+/obj/item/weapon/storage/box/syringes,
+/obj/item/weapon/storage/box/syringes,
+/obj/item/weapon/storage/box/beakers,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "ocP" = (
@@ -37472,7 +37468,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/medical/equipstorage)
 "ovN" = (
 /obj/machinery/door/airlock/glass_external/freezable{
@@ -39255,6 +39251,9 @@
 /obj/effect/floor_decal/corner/paleblue/full{
 	dir = 1
 	},
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "pfj" = (
@@ -43204,9 +43203,8 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/ward)
 "qHn" = (
-/obj/structure/closet/secure_closet/medical3,
-/obj/item/weapon/soap/nanotrasen,
 /obj/effect/floor_decal/corner/paleblue/full,
+/obj/structure/closet/secure_closet/med_taser,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "qHx" = (
@@ -51252,6 +51250,9 @@
 /obj/item/weapon/storage/belt/medical,
 /obj/item/weapon/storage/belt/medical,
 /obj/item/weapon/storage/belt/medical,
+/obj/item/clothing/accessory/stethoscope,
+/obj/item/clothing/accessory/stethoscope,
+/obj/item/clothing/accessory/stethoscope,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "tSm" = (
@@ -59067,6 +59068,8 @@
 	pixel_y = -28;
 	req_access = list(67)
 	},
+/obj/structure/closet/secure_closet/medical3,
+/obj/item/weapon/soap/nanotrasen,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "xef" = (
@@ -59596,11 +59599,6 @@
 "xol" = (
 /turf/simulated/wall,
 /area/hallway/secondary/entry/docking_lounge)
-"xop" = (
-/obj/structure/closet/secure_closet/medical3,
-/obj/item/weapon/soap/nanotrasen,
-/turf/simulated/floor/tiled/white,
-/area/medical/equipstorage)
 "xou" = (
 /obj/structure/closet/secure_closet/security,
 /obj/effect/floor_decal/industrial/outline,
@@ -70354,7 +70352,7 @@ vdG
 nAF
 efL
 kFu
-xop
+hSK
 qHn
 ovG
 tUw
