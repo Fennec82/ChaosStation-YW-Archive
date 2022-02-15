@@ -78,7 +78,7 @@
 	name = "lockbox of loyalty implants"
 	req_access = list(access_security)
 	starts_with = list(
-		/obj/item/weapon/implantcase/loyalty = 3,
+		/obj/item/weapon/implantcase/loyalty = 7,
 		/obj/item/weapon/implanter/loyalty
 	)
 
