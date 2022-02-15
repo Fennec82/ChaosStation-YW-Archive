@@ -4262,6 +4262,8 @@
 #include "modular_chaosstation\code\game\objects\items\weapons\inducer_cs.dm"
 #include "modular_chaosstation\code\game\objects\items\weapons\RCD_cs.dm"
 #include "modular_chaosstation\code\game\objects\items\weapons\melee\dualsaber.dm"
+#include "modular_chaosstation\code\game\objects\items\weapons\storage\boxes_cs.dm"
+#include "modular_chaosstation\code\game\objects\items\weapons\storage\lockbox_cs.dm"
 #include "modular_chaosstation\code\game\objects\structures\crates_lockers\closets\secure\centcom.dm"
 #include "modular_chaosstation\code\game\objects\structures\crates_lockers\closets\secure\medical_cs.dm"
 #include "modular_chaosstation\code\game\objects\structures\crates_lockers\closets\secure\security_cs.dm"
