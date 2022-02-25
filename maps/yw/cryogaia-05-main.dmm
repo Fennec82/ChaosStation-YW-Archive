@@ -19072,6 +19072,8 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
+/obj/structure/dogbed,
+/mob/living/simple_mob/otie/feral/chubby/zoey,
 /turf/simulated/floor/tiled/old_tile/blue,
 /area/bridge/blueshield)
 "hoT" = (
@@ -31131,6 +31133,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/maintenance/medbay)
+"mft" = (
+/mob/living/simple_mob/vore/fennec/alexis,
+/obj/structure/dogbed,
+/turf/simulated/floor/tiled/dark,
+/area/bridge)
 "mfu" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/substation/command)
@@ -76705,7 +76712,7 @@ fdi
 fZP
 aNc
 fEC
-aNc
+mft
 fZP
 shM
 aCR
