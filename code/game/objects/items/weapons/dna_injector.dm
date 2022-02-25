@@ -248,7 +248,7 @@
 
 /obj/item/weapon/dnainjector/antiremoteview
 	name = "\improper DNA injector (Anti-Remote View)"
-	desc = "Cures green skin."
+	desc = "Cures long-distance sight."
 	datatype = DNA2_BUF_SE
 	value = 0x001
 
@@ -469,7 +469,7 @@
 
 /obj/item/weapon/dnainjector/tourmut
 	name = "\improper DNA injector (Tour.)"
-	desc = "Gives you a nasty case off tourrets."
+	desc = "Gives you a nasty case of FUCKING tourrets."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
 
