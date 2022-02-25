@@ -37,7 +37,7 @@
 		/obj/item/clothing/suit/storage/toggle/labcoat/modern,
 		/obj/item/clothing/suit/storage/toggle/labcoat/rd,
 		/obj/item/weapon/cartridge/rd,
-		/obj/item/device/defib_kit/jumper_kit/combat,
+		/obj/item/device/defib_kit/jumper_kit/combat/loaded,
 		/obj/item/clothing/shoes/white,
 		/obj/item/clothing/shoes/laceup/brown,
 		/obj/item/clothing/gloves/sterile/latex,
