@@ -12,7 +12,7 @@
 	var/datum/vore_look/vorePanel
 
 /mob/living/proc/insidePanel()
-	set name = "Vore Panel"
+	set name = "Noms Panel"
 	set category = "IC"
 
 	if(!vorePanel)
