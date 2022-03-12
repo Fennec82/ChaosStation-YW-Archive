@@ -184,9 +184,15 @@
 /turf/simulated/floor/plating,
 /area/outpost/research/atmosia)
 "au" = (
-/mob/living/simple_mob/animal/space/carp/large,
-/turf/simulated/floor/tiled/old_tile/gray,
-/area/vacant/vacant_site/east)
+/obj/structure/table/reinforced,
+/obj/item/device/flashlight/lamp,
+/obj/machinery/recharger,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/turf/simulated/floor/tiled/dark,
+/area/rnd/xenobiology/secure)
 "av" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Public Gateway Access"
@@ -1797,9 +1803,10 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/hallway)
 "eu" = (
-/obj/random/mob/robotic/hivebot,
-/turf/simulated/floor/tiled/old_tile/gray,
-/area/vacant/vacant_site/east)
+/obj/structure/table/rack/shelf,
+/obj/item/weapon/gun/energy/phasegun/rifle,
+/turf/simulated/floor/tiled,
+/area/rnd/xenobiology/secure)
 "ev" = (
 /obj/structure/cable/blue{
 	d1 = 4;
@@ -1813,10 +1820,6 @@
 /obj/machinery/meter,
 /turf/simulated/floor/tiled/white,
 /area/rnd/outpost/heating)
-"ex" = (
-/mob/living/simple_mob/animal/space/carp,
-/turf/simulated/floor/tiled/old_tile/gray,
-/area/vacant/vacant_site/east)
 "ey" = (
 /obj/machinery/door/airlock/mining{
 	name = "Mining Station Storage";
@@ -2914,11 +2917,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway/mid)
-"gY" = (
-/obj/effect/decal/cleanable/blood/drip,
-/obj/random/mob/robotic/hivebot,
-/turf/simulated/floor/tiled/old_tile/gray,
-/area/vacant/vacant_site/east)
 "gZ" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder,
@@ -3118,10 +3116,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/mining_north)
-"hA" = (
-/mob/living/simple_mob/animal/space/carp/large/huge,
-/turf/simulated/floor/reinforced,
-/area/vacant/vacant_site/east)
 "hB" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -5072,7 +5066,7 @@
 "mv" = (
 /obj/structure/table/standard,
 /obj/item/weapon/melee/baton/slime/loaded,
-/obj/item/weapon/gun/energy/taser/xeno,
+/obj/item/weapon/gun/energy/taser/xeno/sec,
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -25
@@ -6287,7 +6281,6 @@
 "pw" = (
 /obj/effect/floor_decal/rust,
 /obj/effect/floor_decal/rust/steel_decals_rusted2,
-/mob/living/simple_mob/animal/space/carp,
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/vacant/vacant_site/east)
 "px" = (
@@ -9899,11 +9892,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway/entry)
-"yu" = (
-/obj/effect/floor_decal/rust,
-/obj/random/mob/robotic/hivebot,
-/turf/simulated/floor/tiled/old_tile/gray,
-/area/vacant/vacant_site/east)
 "yv" = (
 /obj/machinery/atmospherics/binary/pump/high_power,
 /turf/simulated/floor/plating,
@@ -14429,10 +14417,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/west_hall)
-"IR" = (
-/mob/living/simple_mob/mechanical/hivebot/ranged_damage/strong/guard,
-/turf/simulated/floor/tiled/old_tile/gray,
-/area/vacant/vacant_site/east)
 "IS" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -17028,7 +17012,6 @@
 /area/outpost/research/hallway/mid)
 "OY" = (
 /obj/item/device/electronic_assembly/clothing/large,
-/mob/living/simple_mob/animal/space/carp/large,
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/vacant/vacant_site/east)
 "OZ" = (
@@ -19754,7 +19737,7 @@
 /obj/item/weapon/folder,
 /obj/item/weapon/pen,
 /obj/item/weapon/melee/baton/slime/loaded,
-/obj/item/weapon/gun/energy/taser/xeno,
+/obj/item/weapon/gun/energy/taser/xeno/sec,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/xenobiology/secure)
 "VQ" = (
@@ -20990,6 +20973,8 @@
 /obj/effect/floor_decal/corner/pink{
 	dir = 5
 	},
+/obj/item/weapon/storage/firstaid/o2,
+/obj/item/weapon/storage/firstaid/fire,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/surgery)
 "YG" = (
@@ -37851,7 +37836,7 @@ Nb
 Nb
 bB
 ng
-bB
+eu
 Nb
 KS
 KS
@@ -39464,7 +39449,7 @@ Nb
 sV
 pI
 Nb
-tt
+au
 rl
 Nb
 fH
@@ -40125,7 +40110,7 @@ Nb
 Yp
 Su
 kp
-au
+Su
 fr
 KS
 KS
@@ -40451,7 +40436,7 @@ Ar
 dm
 Ar
 pG
-eu
+Su
 yJ
 Su
 iz
@@ -40608,7 +40593,7 @@ SA
 fr
 fr
 yJ
-ex
+Su
 yJ
 yJ
 Su
@@ -40780,7 +40765,7 @@ me
 me
 vP
 Su
-yu
+yJ
 Vq
 yJ
 fr
@@ -40939,7 +40924,7 @@ FO
 Su
 eh
 Dt
-ex
+Su
 Su
 mR
 yJ
@@ -41414,7 +41399,7 @@ tI
 AP
 sH
 sH
-hA
+sH
 yO
 yJ
 jZ
@@ -41423,7 +41408,7 @@ fr
 fr
 yJ
 Xk
-gY
+Er
 fr
 KS
 KS
@@ -42071,7 +42056,7 @@ Xk
 fr
 Xk
 yJ
-IR
+Su
 yJ
 Xk
 Xk
