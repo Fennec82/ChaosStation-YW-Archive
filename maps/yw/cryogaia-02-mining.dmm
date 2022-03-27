@@ -934,7 +934,7 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/obj/item/weapon/storage/firstaid/surgery,
+/obj/item/weapon/storage/firstaid/surgery/med,
 /obj/effect/floor_decal/corner/pink/full{
 	dir = 4
 	},
