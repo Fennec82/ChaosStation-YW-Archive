@@ -24401,7 +24401,6 @@
 /obj/effect/floor_decal/corner_oldtile/purple/diagonal{
 	dir = 4
 	},
-/obj/machinery/hologram/holopad,
 /mob/living/simple_mob/slime/xenobio/rainbow/kendrick,
 /turf/simulated/floor/tiled/white,
 /area/rnd/rdoffice)
@@ -59334,7 +59333,7 @@
 /area/engineering/engineering_monitoring)
 "xjG" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/firstaid/surgery,
+/obj/item/weapon/storage/firstaid/surgery/robotics,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "xjU" = (
