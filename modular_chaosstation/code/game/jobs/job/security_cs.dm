@@ -77,3 +77,24 @@
 
 /datum/alt_title/jail_doc
 	title = "Prison Doctor"
+
+
+
+
+
+
+
+
+
+
+//Modular Alt-Titles
+
+//Security Pilot
+/datum/alt_title/sec_mech
+	title = "Security Mech Pilot"
+
+/datum/alt_title/mech_operator
+	title = "Exosuit Operator"
+
+/datum/alt_title/intercept_pilot
+	title = "Interceptor Pilot"

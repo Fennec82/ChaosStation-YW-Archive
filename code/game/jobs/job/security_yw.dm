@@ -36,13 +36,5 @@
 						for potential threats to their workplace. They may also be expected to step in to standard Security duties if \
 						there's a shortage of regular officers."
 
-	alt_titles = list("Security Mech Pilot" = /datum/alt_title/sec_mech, "Interceptor Pilot" = /datum/alt_title/intercept_pilot, "Exosuit Operator" = /datum/alt_title/mech_operator)
+	alt_titles = list("Security Mech Pilot" = /datum/alt_title/sec_mech, "Interceptor Pilot" = /datum/alt_title/intercept_pilot, "Exosuit Operator" = /datum/alt_title/mech_operator) //Chaosstation edit - Alt-titles
 
-/datum/alt_title/sec_mech
-	title = "Security Mech Pilot"
-
-/datum/alt_title/mech_operator
-	title = "Exosuit Operator"
-
-/datum/alt_title/intercept_pilot
-	title = "Interceptor Pilot"
