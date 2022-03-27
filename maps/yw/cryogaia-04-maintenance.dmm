@@ -11137,6 +11137,10 @@
 "haL" = (
 /obj/structure/table/steel,
 /obj/structure/disposalpipe/segment,
+/obj/item/clothing/under/rank/medical/scrubs/black,
+/obj/item/clothing/head/surgery/black,
+/obj/item/clothing/mask/surgical,
+/obj/item/clothing/gloves/forensic,
 /obj/item/weapon/storage/firstaid/surgery/medexaminer,
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/morgue)

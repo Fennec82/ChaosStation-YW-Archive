@@ -25,3 +25,25 @@
 
 /datum/alt_title/senior_doc
 	title = "Senior Physician"
+
+
+
+
+
+
+
+
+//Modular Alt-titles
+
+//Cloning Specialist, Basically a geneticist, but without the knowledge of manipulation equipment
+/datum/alt_title/cloning_spec
+	title = "Cloning Specialist"
+	title_blurb = "A cloning specialist is primarily an expert in cloning and resleeving technology, and is knowledgeable in the use of cryotherapy and medication to cure common cloning-related ailments. \
+					They are also doctors, and are expected to take up that role in the absence of more qualified personnel."
+	title_outfit = /decl/hierarchy/outfit/job/medical/geneticist
+
+/datum/alt_title/medexaminer
+	title = "Medical Examiner"
+	title_blurb = "A Medical Examiner is responsible for handling bodies and performing autopsies. \
+					They are likely familiar with forensics, and in basic first aid. They also are responsible for cloning when there is no Cloning Specialist."
+	title_outfit = /decl/hierarchy/outfit/job/medical/examiner

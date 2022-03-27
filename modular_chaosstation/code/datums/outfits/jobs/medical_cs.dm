@@ -10,3 +10,9 @@
 	r_pocket = /obj/item/device/healthanalyzer/improved
 	back = /obj/item/weapon/storage/backpack/dufflebag/med
 	gloves = /obj/item/clothing/gloves/sterile/nitrile
+
+
+/decl/hierarchy/outfit/job/medical/examiner
+	name = OUTFIT_JOB_NAME("Medical Examiner")
+	uniform = 	/obj/item/clothing/under/rank/medical/scrubs/black
+	head = /obj/item/clothing/head/soft/med

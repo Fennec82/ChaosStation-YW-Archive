@@ -23,11 +23,11 @@
 
 
 /datum/job/doctor
-	spawn_positions = 5
+	spawn_positions = 7
 	pto_type = PTO_MEDICAL
 	alt_titles = list("Physician" = /datum/alt_title/physician, "Medical Practitioner" = /datum/alt_title/medical_practitioner, "Surgeon" = /datum/alt_title/surgeon,
 						"Emergency Physician" = /datum/alt_title/emergency_physician, "Nurse" = /datum/alt_title/nurse, "Orderly" = /datum/alt_title/orderly,
-						"Virologist" = /datum/alt_title/virologist)
+						"Virologist" = /datum/alt_title/virologist, "Cloning Specialist" = /datum/alt_title/cloning_spec, "Medical Examiner" = /datum/alt_title/medexaminer) //Chaosstation additions - Cloning specialist, Med examiner.
 
 
 /datum/alt_title/physician
