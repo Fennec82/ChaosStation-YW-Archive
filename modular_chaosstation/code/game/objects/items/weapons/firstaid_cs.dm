@@ -1,6 +1,6 @@
 /obj/item/weapon/storage/firstaid/surgery/sec
 	name = "security surgery kit"
-	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a security pattern."
+	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a Nanotrasen security pattern."
 	icon = 'icons/inventory/back/item.dmi'
 	icon_state = "duffle_security"
 	item_state_slots = list(slot_r_hand_str = "duffle_security", slot_l_hand_str = "duffle_security")
@@ -16,7 +16,7 @@
 
 /obj/item/weapon/storage/firstaid/surgery/med
 	name = "portable surgery kit"
-	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a MedSci pattern."
+	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a Nanotrasen MedSci pattern."
 	icon = 'icons/inventory/back/item.dmi'
 	icon_state = "duffle_medical"
 	item_state_slots = list(slot_r_hand_str = "duffle_medical", slot_l_hand_str = "duffle_medical")
@@ -28,4 +28,20 @@
 	icon = 'icons/inventory/back/item.dmi'
 	icon_state = "duffle_syndie"
 	item_state_slots = list(slot_r_hand_str = "duffle_syndie", slot_l_hand_str = "duffle_syndie")
+	max_w_class = ITEMSIZE_NORMAL
+
+/obj/item/weapon/storage/firstaid/surgery/robotics
+	name = "robotics surgery kit"
+	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a grey, generic pattern."
+	icon = 'icons/inventory/back/item.dmi'
+	icon_state = "duffle_drone"
+	item_state_slots = list(slot_r_hand_str = "duffle_drone", slot_l_hand_str = "duffle_drone")
+	max_w_class = ITEMSIZE_NORMAL
+
+/obj/item/weapon/storage/firstaid/surgery/rd
+	name = "Research Director's surgery kit"
+	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a Nanotrasen science pattern."
+	icon = 'icons/inventory/back/item.dmi'
+	icon_state = "duffle_science"
+	item_state_slots = list(slot_r_hand_str = "duffle_science", slot_l_hand_str = "duffle_science")
 	max_w_class = ITEMSIZE_NORMAL
