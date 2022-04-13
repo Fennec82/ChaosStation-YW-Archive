@@ -45,5 +45,5 @@
 /datum/alt_title/medexaminer
 	title = "Medical Examiner"
 	title_blurb = "A Medical Examiner is responsible for handling bodies and performing autopsies. \
-					They are likely familiar with forensics, and in basic first aid. They also are responsible for cloning when there is no Cloning Specialist."
+					They are likely familiar with forensics, and in basic medical care. They also are responsible for cloning when there is no Cloning Specialist, as well as surgery when there is no surgeon.."
 	title_outfit = /decl/hierarchy/outfit/job/medical/examiner
