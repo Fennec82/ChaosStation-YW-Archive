@@ -763,11 +763,10 @@
 	src.modules += new /obj/item/weapon/tray/robotray(src)
 	src.modules += new /obj/item/weapon/reagent_containers/borghypo/service(src)
 
-/* // I don't know what kind of sleeper to put here, but also no need if you already have "Robot Nom" verb.
-	var/obj/item/device/dogborg/sleeper/K9/B = new /obj/item/device/dogborg/sleeper/K9(src)
+// I don't know what kind of sleeper to put here, but also no need if you already have "Robot Nom" verb. - revisit later //Chaosstation change - Revisited
+	var/obj/item/device/dogborg/sleeper/compactor/fun/B = new /obj/item/device/dogborg/sleeper/compactor/fun(src)
 	B.water = water
 	src.modules += B
-*/
 
 	R.icon 		 = 'icons/mob/widerobot_yw.dmi' //YW edit - using yw icon files
 	R.hands.icon = 'icons/mob/screen1_robot_vr.dmi'
@@ -840,11 +839,11 @@
 	src.modules += new /obj/item/weapon/tray/robotray(src)
 	src.modules += new /obj/item/weapon/reagent_containers/borghypo/service(src)
 
-/* // I don't know what kind of sleeper to put here, but also no need if you already have "Robot Nom" verb. - revisit later
-	var/obj/item/device/dogborg/sleeper/K9/B = new /obj/item/device/dogborg/sleeper/K9(src)
+// I don't know what kind of sleeper to put here, but also no need if you already have "Robot Nom" verb. - revisit later //Chaosstation change - Revisited
+	var/obj/item/device/dogborg/sleeper/compactor/fun/B = new /obj/item/device/dogborg/sleeper/compactor/fun(src)
 	B.water = water
 	src.modules += B
-*/
+
 
 	R.icon 		 = 'icons/mob/widerobot_ser_vr.dmi'
 	R.wideborg_dept  = 'icons/mob/widerobot_ser_vr.dmi'

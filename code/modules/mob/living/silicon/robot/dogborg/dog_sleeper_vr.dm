@@ -724,4 +724,14 @@
 	icon_state = "sleeperert"
 	injection_chems = list("inaprovaline", "paracetamol", "tricordrazine") // short list
 
+//Chaosstation additions start
+
+/obj/item/device/dogborg/sleeper/compactor/fun
+	name = "Recreational Sleeper"
+	desc = "Equipment for a civilian dogborg unit. A mounted sleeper unit for serving the crew."
+	icon_state = "sleeperc"
+	injection_chems = list("inaprovaline","tricordrazine")
+
+//Chaosstation additions end
+
 #undef SLEEPER_INJECT_COST
