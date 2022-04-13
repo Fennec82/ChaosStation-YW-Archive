@@ -16,3 +16,7 @@
 	name = OUTFIT_JOB_NAME("Medical Examiner")
 	uniform = 	/obj/item/clothing/under/rank/medical/scrubs/black
 	head = /obj/item/clothing/head/soft/med
+	gloves = /obj/item/clothing/gloves/forensic
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
+	r_pocket = /obj/item/device/healthanalyzer
+	l_hand = /obj/item/weapon/storage/firstaid
