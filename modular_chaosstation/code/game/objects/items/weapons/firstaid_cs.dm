@@ -39,9 +39,17 @@
 	max_w_class = ITEMSIZE_NORMAL
 
 /obj/item/weapon/storage/firstaid/surgery/rd
-	name = "Research Director's surgery kit"
+	name = "research director's surgery kit"
 	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a Nanotrasen science pattern."
 	icon = 'icons/inventory/back/item.dmi'
 	icon_state = "duffle_science"
 	item_state_slots = list(slot_r_hand_str = "duffle_science", slot_l_hand_str = "duffle_science")
+	max_w_class = ITEMSIZE_NORMAL
+
+/obj/item/weapon/storage/firstaid/surgery/talon
+	name = "ITV Talon medic's surgery kit"
+	desc = "Contains tools for surgery. Has precise foam fitting for safe transport and automatically sterilizes the content between uses. It has a ITV Talon pattern."
+	icon = 'icons/inventory/back/item_vr.dmi'
+	icon_state = "talon_duffle"
+	item_state_slots = list(slot_r_hand_str = "talon_duffle", slot_l_hand_str = "talon_duffle")
 	max_w_class = ITEMSIZE_NORMAL
