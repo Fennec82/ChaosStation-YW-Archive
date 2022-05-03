@@ -3350,7 +3350,7 @@
 /area/shuttle/security)
 "boi" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Engineering Drone Fabrication";
+	name = "Engineering Drone Fabrication and Supplies Manufacturing";
 	req_one_access = list(11,24)
 	},
 /obj/machinery/door/firedoor/border_only,
@@ -8765,7 +8765,7 @@
 /area/cryogaia/station/ert_arrival)
 "dpz" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Engineering Drone Fabrication";
+	name = "Engineering Drone Fabrication and Supplies Manufacturing";
 	req_one_access = list(11,24)
 	},
 /obj/machinery/door/firedoor/border_only,
@@ -15411,6 +15411,9 @@
 	dir = 4;
 	name = "Common Channel";
 	pixel_x = 21
+	},
+/obj/machinery/computer/rdconsole/core{
+	dir = 8
 	},
 /turf/simulated/floor,
 /area/engineering/drone_fabrication)
@@ -45983,6 +45986,7 @@
 /obj/machinery/door/window/eastright{
 	req_access = list(7)
 	},
+/obj/item/stack/material/phoron,
 /turf/simulated/floor/tiled,
 /area/assembly/robotics)
 "rNf" = (
@@ -47747,6 +47751,7 @@
 /obj/machinery/camera/network/medbay{
 	c_tag = "Medical Storage"
 	},
+/obj/item/device/denecrotizer/medical,
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay_primary_storage)
 "sve" = (
@@ -53048,6 +53053,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_a)
+"uKG" = (
+/obj/machinery/r_n_d/circuit_imprinter,
+/obj/structure/reagent_dispensers/acid{
+	pixel_x = 32
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/turf/simulated/floor,
+/area/engineering/drone_fabrication)
 "uKL" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -58330,6 +58343,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/machinery/r_n_d/protolathe,
 /turf/simulated/floor,
 /area/engineering/drone_fabrication)
 "wNg" = (
@@ -59256,6 +59270,45 @@
 	},
 /obj/item/stack/material/plasteel{
 	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/plasteel{
+	amount = 10
+	},
+/obj/item/stack/material/phoron,
+/obj/item/stack/material/phoron,
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/stack/material/glass{
+	amount = 50;
+	pixel_x = -2;
+	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
@@ -74646,7 +74699,7 @@ gWY
 pXC
 wMW
 fTH
-tDM
+uKG
 aQW
 jvS
 gWY
