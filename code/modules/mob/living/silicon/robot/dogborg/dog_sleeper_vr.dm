@@ -699,7 +699,7 @@
 /obj/item/device/dogborg/sleeper/compactor/delivery //Unfinished and unimplemented, still testing.
 	name = "Cargo Belly"
 	desc = "A mounted cargo bay unit for tagged deliveries."
-	icon_state = "decompiler"
+	icon_state = "sleeperc" //Chaosstation change - Kmine belly sprite
 	max_item_count = 20
 	delivery = TRUE
 	recycles = FALSE
