@@ -53,6 +53,8 @@
 	robot_modules["KMine"] = /obj/item/weapon/robot_module/robot/kmine
 	robot_modules["Stray"] = /obj/item/weapon/robot_module/robot/stray
 	robot_modules["SurgeryHound"] = /obj/item/weapon/robot_module/surgeryhound // CS addition.
+//	robot_modules["CargoHound"] =	/obj/item/weapon/robot_module/robot/cargohound //CS addition, testing
+	robot_modules["CrisisHound"] = /obj/item/weapon/robot_module/robot/crisishound
 	return 1
 
 //Just add a new proc with the robot_module type if you wish to run some other vore code
@@ -1107,4 +1109,158 @@
 	R.verbs |= /mob/living/silicon/robot/proc/rest_style
 	..()
 //End Surgeryhound
+
+/*
+//Begin Cargo-hound
+/obj/item/weapon/robot_module/robot/cargohound
+	name = "Cargo Hound Module"
+	sprites = list(
+					"KMine" = "kmine",
+					"CargoHound" = "cargohound",
+					"CargoHoundDark" = "cargohounddark",
+					"Drake" = "drakemine"
+					)
+	channels = list("Supply" = 1)
+	pto_type = PTO_CARGO
+	can_be_pushed = 0
+
+/obj/item/weapon/robot_module/robot/cargohound/New(var/mob/living/silicon/robot/R)
+	src.modules += new /obj/item/weapon/tool/wrench/cyborg(src)
+	src.modules += new /obj/item/weapon/tool/screwdriver/cyborg(src)
+	src.modules += new /obj/item/weapon/tool/wirecutters/cyborg(src)
+	src.modules += new /obj/item/device/multitool/cyborg(src)
+	src.modules += new /obj/item/device/destTagger (src)
+	src.modules += new /obj/item/weapon/dogborg/jaws/small(src)
+	src.emag = new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src)//gun cargo
+
+	var/datum/matter_synth/water = new /datum/matter_synth(500)
+	water.name = "Water reserves"
+	water.recharge_rate = 0
+	R.water_res = water
+	synths += water
+
+	var/obj/item/device/dogborg/tongue/T = new /obj/item/device/dogborg/tongue(src)
+	T.water = water
+	src.modules += T
+
+	var/obj/item/device/dogborg/sleeper/compactor/delivery/B = new /obj/item/device/dogborg/sleeper/compactor/delivery(src)
+	B.water = water
+	src.modules += B
+
+	R.icon = 'icons/mob/widerobot_car_vr.dmi'
+	R.wideborg_dept = 'icons/mob/widerobot_car_vr.dmi'
+	R.hands.icon = 'icons/mob/screen1_robot_vr.dmi'
+	R.ui_style_vr = TRUE
+	R.pixel_x 	 = -16
+	R.old_x  	 = -16
+	R.default_pixel_x = -16
+	R.dogborg = TRUE
+	R.wideborg = TRUE
+	R.verbs |= /mob/living/silicon/robot/proc/ex_reserve_refill
+	R.verbs |= /mob/living/silicon/robot/proc/robot_mount
+	R.verbs |= /mob/living/proc/toggle_rider_reins
+	R.verbs |= /mob/living/proc/shred_limb
+	R.verbs |= /mob/living/silicon/robot/proc/rest_style
+
+	..()
+	*/
+
+//Crisishound //Basiclly Crisis module but as medihound lmao. Main attraction is 3 sleeper units. OP? YES~
+
+/obj/item/weapon/robot_module/robot/crisishound
+	name = "CrisisHound module"
+	channels = list("Medical" = 1)
+	networks = list(NETWORK_MEDICAL)
+	subsystems = list(/mob/living/silicon/proc/subsystem_crew_monitor)
+	pto_type = PTO_MEDICAL
+	can_be_pushed = 0
+	sprites = list(
+					"Medical Hound" = "medihound",
+					"Dark Medical Hound (Static)" = "medihounddark",
+					"Mediborg model V-2" = "vale", //Removes borgi option cause I hate it
+					"Drake" = "drakemed"
+					)
+
+/obj/item/weapon/robot_module/robot/crisishound/New(var/mob/living/silicon/robot/R)
+	src.modules += new /obj/item/weapon/dogborg/jaws/small(src) //In case a patient is being attacked by carp.
+	src.modules += new /obj/item/device/dogborg/boop_module(src) //Boop the crew.
+	src.modules += new /obj/item/device/healthanalyzer(src) // See who's hurt specificially.
+	src.modules += new /obj/item/borg/sight/hud/med(src) //See who's hurt generally.
+	src.modules += new /obj/item/weapon/reagent_containers/syringe(src) //In case the chemist is nice!
+	src.modules += new /obj/item/weapon/reagent_containers/glass/beaker/large(src)//For holding the chemicals when the chemist is nice
+	src.modules += new /obj/item/device/sleevemate(src) //Lets them scan people.
+	src.modules += new /obj/item/taperoll/medical //CS edit
+	src.modules += new /obj/item/weapon/gripper/medical(src) //CS edit
+	src.modules += new /obj/item/weapon/shockpaddles/robot/hound(src) //Paws of life
+	src.modules += new /obj/item/weapon/dogborg/pounce(src) //Pounce. Comes by default here
+	src.emag = new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src)//Emag, not a big problem
+
+	var/datum/matter_synth/medicine = new /datum/matter_synth/medicine(20000) //Extra reserves
+	synths += medicine
+
+	var/obj/item/stack/medical/advanced/clotting/C = new (src)
+	C.uses_charge = 1
+	C.charge_costs = list(1000)
+	C.synths = list(medicine)
+	src.modules += C
+
+	var/datum/matter_synth/water = new /datum/matter_synth(5000) //More reserves
+	water.name = "Water reserves"
+	water.recharge_rate = 0
+	R.water_res = water
+	synths += water
+
+	var/obj/item/weapon/reagent_containers/borghypo/hound/H = new /obj/item/weapon/reagent_containers/borghypo/hound(src)
+	H.water = water
+	src.modules += H
+
+	var/obj/item/device/dogborg/tongue/T = new /obj/item/device/dogborg/tongue(src)
+	T.water = water
+	src.modules += T
+
+	var/obj/item/device/dogborg/sleeper/B = new /obj/item/device/dogborg/sleeper(src) //So they can nom people and heal them. Has 2 more cause MCI response
+	B.water = water
+	src.modules += B
+
+	var/obj/item/device/dogborg/sleeper/Q = new /obj/item/device/dogborg/sleeper(src) //Sleeper #2
+	Q.water = water
+	src.modules += Q
+
+	var/obj/item/device/dogborg/sleeper/E = new /obj/item/device/dogborg/sleeper(src) ///Sleeper #3
+	E.water = water
+	src.modules += E
+
+
+	var/obj/item/stack/medical/advanced/ointment/O = new /obj/item/stack/medical/advanced/ointment(src)
+	var/obj/item/stack/medical/advanced/bruise_pack/P = new /obj/item/stack/medical/advanced/bruise_pack(src)
+	var/obj/item/stack/medical/splint/S = new /obj/item/stack/medical/splint(src)
+	O.uses_charge = 1
+	O.charge_costs = list(100)
+	O.synths = list(medicine)
+	P.uses_charge = 1
+	P.charge_costs = list(100)
+	P.synths = list(medicine)
+	S.uses_charge = 1
+	S.charge_costs = list(100)
+	S.synths = list(medicine)
+	src.modules += O
+	src.modules += P
+	src.modules += S
+
+
+	R.icon = 'icons/mob/widerobot_med_vr.dmi'
+	R.wideborg_dept = 'icons/mob/widerobot_med_vr.dmi'
+	R.hands.icon = 'icons/mob/screen1_robot_vr.dmi'
+	R.ui_style_vr = TRUE
+	R.pixel_x 	 = -16
+	R.old_x  	 = -16
+	R.default_pixel_x = -16
+	R.dogborg = TRUE
+	R.wideborg = TRUE
+	R.verbs |= /mob/living/silicon/robot/proc/ex_reserve_refill
+	R.verbs |= /mob/living/silicon/robot/proc/robot_mount
+	R.verbs |= /mob/living/proc/toggle_rider_reins
+	R.verbs |= /mob/living/proc/shred_limb
+	R.verbs |= /mob/living/silicon/robot/proc/rest_style
+	..()
 //Chaosstation end
