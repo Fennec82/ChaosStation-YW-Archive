@@ -3136,10 +3136,9 @@
 /turf/simulated/wall,
 /area/security/perma/control)
 "cdM" = (
-/obj/structure/table/rack{
-	dir = 4
+/obj/machinery/light{
+	dir = 1
 	},
-/obj/item/weapon/storage/photo_album,
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "cdN" = (
@@ -3357,11 +3356,18 @@
 /area/chapel/main)
 "ckt" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/tiled,
 /area/vacant/vacant_shop)
 "ckB" = (
@@ -5680,7 +5686,12 @@
 /turf/simulated/floor/wood/sif,
 /area/maintenance/blueserg/misc)
 "dHi" = (
-/obj/structure/closet/secure_closet/deathgiver,
+/obj/structure/closet/secure_closet/personal{
+	name = "executioner's closet"
+	},
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/shoes/black,
+/obj/item/clothing/suit/storage/miljacket/black,
 /turf/simulated/floor/tiled,
 /area/security/perma)
 "dHl" = (
@@ -7999,6 +8010,7 @@
 /area/maintenance/maintroom6)
 "feb" = (
 /obj/structure/reagent_dispensers/fueltank,
+/obj/machinery/light,
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "feg" = (
@@ -8759,7 +8771,9 @@
 /area/chapel/main)
 "fCw" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "fCK" = (
@@ -10321,6 +10335,9 @@
 /obj/item/stack/cable_coil/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "gBR" = (
@@ -10573,7 +10590,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "gLh" = (
-/obj/random/tech_supply,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "gLu" = (
@@ -15001,7 +15020,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/chapel/main)
 "jiS" = (
-/obj/item/frame/light,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "jjc" = (
@@ -15537,9 +15558,10 @@
 /turf/simulated/floor/tiled,
 /area/tcommsat/entrance)
 "jyx" = (
-/obj/structure/table/reinforced,
-/obj/machinery/cash_register/civilian{
-	dir = 1
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
@@ -17912,8 +17934,11 @@
 /turf/simulated/floor/plating,
 /area/hallway/lower/fore)
 "kGm" = (
-/obj/item/frame/light,
-/obj/structure/table/reinforced,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "kGx" = (
@@ -19676,11 +19701,10 @@
 /turf/simulated/floor/tiled,
 /area/hallway/lower/dorms)
 "lJt" = (
-/obj/structure/table/rack{
-	dir = 4
-	},
 /obj/item/weapon/storage/toolbox/mechanical,
-/obj/random/maintenance/engineering,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "lJC" = (
@@ -19918,6 +19942,7 @@
 	charge = 100;
 	maxcharge = 15000
 	},
+/obj/machinery/light,
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "lPn" = (
@@ -26991,8 +27016,13 @@
 /turf/simulated/floor/wood/sif,
 /area/maintenance/blueserg/misc)
 "qdq" = (
-/obj/effect/decal/cleanable/blood/oil/streak{
-	amount = 0
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 28
+	},
+/obj/structure/cable/green{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
@@ -27510,8 +27540,11 @@
 /turf/simulated/floor/tiled,
 /area/security/brig/visitation)
 "qsA" = (
-/obj/structure/table/reinforced,
-/obj/random/maintenance/engineering,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
 /area/vacant/vacant_shop)
 "qti" = (
@@ -28207,7 +28240,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/chapel/main)
 "qUB" = (
-/obj/item/frame/light,
 /obj/machinery/light_switch{
 	dir = 8;
 	pixel_x = 28
@@ -29776,13 +29808,6 @@
 /obj/random/maintenance/engineering,
 /turf/simulated/floor,
 /area/maintenance/aft)
-"rUf" = (
-/obj/structure/table/rack{
-	dir = 4
-	},
-/obj/item/frame/light,
-/turf/simulated/floor/plating,
-/area/vacant/vacant_shop)
 "rUh" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -54706,12 +54731,12 @@ txp
 dNi
 tQZ
 tKx
-cdM
-rUf
+tKx
+tKx
 lJt
 tKx
-gLh
-jiS
+tKx
+tKx
 lPd
 kGc
 eup
@@ -54868,9 +54893,9 @@ txp
 dNi
 tQZ
 tKx
-tKx
+cdM
 beZ
-qdq
+tKx
 svV
 tKx
 tKx
@@ -55355,12 +55380,12 @@ dNi
 tQZ
 tKx
 tKx
-kGm
 tKx
 tKx
 tKx
-tKx
-tKx
+jiS
+jyx
+qsA
 ktD
 mrX
 xFS
@@ -55516,12 +55541,12 @@ txp
 qqA
 tQZ
 tKx
+cdM
 tKx
-jyx
 tKx
 blC
 tKx
-tKx
+kGm
 tKx
 lwU
 dPS
@@ -55679,11 +55704,11 @@ muG
 tQZ
 tKx
 tKx
-qsA
+tKx
 kPL
-tKx
+gLh
 qUB
-tKx
+qdq
 feb
 kGc
 eHd
