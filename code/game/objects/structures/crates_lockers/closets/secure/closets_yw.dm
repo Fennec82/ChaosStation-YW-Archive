@@ -12,6 +12,7 @@
 		/obj/item/device/flash,
 		/obj/item/weapon/reagent_containers/spray/pepper,
 		/obj/item/weapon/handcuffs,
+		/obj/item/clothing/mask/gas/half, // Chaosstation addition - Gas mask
 		/obj/item/weapon/melee/baton/loaded,
 		/obj/item/clothing/glasses/sunglasses,
 		/obj/item/clothing/glasses/sunglasses/medhud,
