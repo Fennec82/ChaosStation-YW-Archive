@@ -2228,9 +2228,9 @@
 /turf/simulated/floor/tiled,
 /area/quartermaster/delivery)
 "aRO" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
+/obj/structure/panic_button{
+	name = "facility distress beacon trigger";
+	pixel_x = 30
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
@@ -6504,6 +6504,7 @@
 	dir = 1;
 	pixel_y = 4
 	},
+/obj/item/weapon/rig/hazard/equipped,
 /turf/simulated/floor/tiled/red,
 /area/security/armoury)
 "cxE" = (
@@ -16629,6 +16630,7 @@
 	frequency = 1441;
 	pixel_y = 22
 	},
+/obj/item/weapon/storage/lockbox/loyalty,
 /obj/item/weapon/storage/lockbox/loyalty,
 /turf/simulated/floor/tiled/red,
 /area/security/armoury)
@@ -27559,8 +27561,10 @@
 /obj/machinery/door/window/brigdoor/westright{
 	name = "Ion Firearms"
 	},
-/obj/item/weapon/gun/energy/ionrifle,
 /obj/structure/table/rack/gun_rack,
+/obj/item/weapon/gun/energy/ionrifle,
+/obj/item/weapon/gun/energy/ionrifle,
+/obj/item/weapon/gun/energy/ionrifle,
 /turf/simulated/floor/tiled/red,
 /area/security/armoury)
 "kKa" = (
