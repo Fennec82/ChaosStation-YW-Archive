@@ -87,7 +87,9 @@
 
 /datum/surgery_step/repairflesh/repair_burns
 	allowed_tools = list(
-	/obj/item/stack/medical/advanced/ointment = 100,
+	/obj/item/weapon/surgical/FixOVein = 100,
+	/obj/item/weapon/surgical/hemostat = 90,
+	/obj/item/stack/medical/advanced/ointment = 75,
 	/obj/item/stack/medical/ointment = 50,
 	/obj/item/weapon/tape_roll = 30,
 	/obj/item/taperoll = 10
@@ -153,7 +155,8 @@
 
 /datum/surgery_step/repairflesh/repair_brute
 	allowed_tools = list(
-	/obj/item/stack/medical/advanced/bruise_pack = 100,
+	/obj/item/weapon/surgical/hemostat = 100,
+	/obj/item/stack/medical/advanced/bruise_pack = 75,
 	/obj/item/stack/medical/bruise_pack = 50,
 	/obj/item/weapon/tape_roll = 40,
 	/obj/item/taperoll = 10

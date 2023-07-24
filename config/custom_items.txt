@@ -385,6 +385,19 @@ character_name: Basir Fahim
 item_path: /obj/item/clothing/gloves/ring/fluff/basir
 }
 
+{
+ckey: RiotScopez
+character_name: Ranya
+item_path: /obj/item/clothing/suit/storage/vest/wardencoat/ranya
+}
+
+{
+ckey: RiotScopez
+character_name: Ranya
+item_path: /obj/item/clothing/head/helmet/warden/hat/ranya
+}
+# ########
+
 # ######## S CKEYS
 {
 ckey: shaper

@@ -62,6 +62,7 @@
 		/obj/item/clothing/under/suit_jacket/teal/skirt,
 		/obj/item/clothing/glasses/sunglasses,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/hop,
+		/obj/item/clothing/suit/storage/toggle/labcoat/neo_hopformal,
 		/obj/item/clothing/head/caphat/hop/beret/,
 		/obj/item/clothing/head/caphat/hop/beret/white)
 
@@ -80,6 +81,8 @@
 		/obj/item/clothing/under/rank/head_of_security/corp,
 		/obj/item/clothing/suit/storage/vest/hoscoat/jensen,
 		/obj/item/clothing/suit/storage/vest/hoscoat,
+		/obj/item/clothing/suit/storage/toggle/labcoat/neo_hos_parade,
+		/obj/item/clothing/suit/storage/toggle/labcoat/neo_hos_parade/armadyne,
 		/obj/item/clothing/head/helmet/dermal,
 		/obj/item/weapon/cartridge/hos,
 		/obj/item/device/radio/headset/heads/hos,
@@ -129,9 +132,12 @@
 		/obj/item/clothing/suit/storage/vest/warden,
 		/obj/item/clothing/under/rank/warden,
 		/obj/item/clothing/under/rank/warden/corp,
-		/obj/item/clothing/suit/storage/vest/wardencoat,
+		/obj/item/clothing/suit/storage/vest/wardencoat/neo, //Chaosstation change - Skyrat Sprite
 		/obj/item/clothing/suit/storage/vest/wardencoat/alt,
-		/obj/item/clothing/suit/storage/vest/wardencoat/alt2, //VOREStation Add,
+		/obj/item/clothing/suit/storage/vest/wardencoat/alt2, //VOREStation Add
+		/obj/item/clothing/suit/storage/vest/wardencoat/neo_bluewarden,
+		/obj/item/clothing/suit/storage/vest/wardencoat/neo_bluewarden/armadyne,
+		/obj/item/clothing/suit/storage/vest/wardencoat/neo_bluewarden/armadyne/alt,
 		/obj/item/clothing/head/helmet/dermal,
 		/obj/item/clothing/head/helmet/warden,
 		/obj/item/clothing/head/helmet/warden/hat,

@@ -1,6 +1,7 @@
 /datum/sprite_accessory/tail/taur/ch
 	icon = 'modular_chompstation/icons/mob/vore/taurs_ch.dmi'//Parent which allows us to not need to set icon every time.
 
+
 /datum/sprite_accessory/tail/taur/ch/zorgoia
 	name = "Zorgoia (Taur)"
 	icon_state = "zorgoia"
@@ -76,15 +77,21 @@
 	icon_state = "scoli_s"
 	extra_overlay = "scoli_markings1"
 	extra_overlay2 = "scoli_markings2"
-/*
+
 /datum/sprite_accessory/tail/taur/ch/sergal/wheaties
 	name = "Sergal (Taur)"
 	icon_state = "sergwheat"
-	icon_sprite_tag = "wolf"
 
 /datum/sprite_accessory/tail/taur/ch/sergal/wheaties_2c
 	name = "Sergal (Taur, dual-color)"
 	icon_state = "sergwheat"
 	extra_overlay = "sergwheat_markings"
-	icon_sprite_tag = "wolf"
-*/
+
+/datum/sprite_accessory/tail/taur/ch/sergal/fatwheaties_2c
+	name = "Fat Sergal (Taur, dual-color)"
+	icon_state = "fatsergal"
+	extra_overlay = "sergwheat_markings"
+
+/datum/sprite_accessory/tail/taur/ch/kitsune
+	name = "Kitsune (Taur)"
+	icon_state = "kitsune"

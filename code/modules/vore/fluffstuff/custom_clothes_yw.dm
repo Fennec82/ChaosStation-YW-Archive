@@ -1748,3 +1748,21 @@
 	icon_override = 'icons/vore/custom_onmob_yw.dmi'
 	item_state = "gear_harness_white"
 	body_parts_covered = 0
+
+
+// *************
+// RiotScopez
+// *************
+/obj/item/clothing/suit/storage/vest/wardencoat/ranya
+	name = "Akatsuki Intergalactic Police PMSC warden's jacket"
+	desc = "A formal military suit for high-ranking Akatsuki Industries officers. The coat seems to be fitted for a 20 foot tall Shadekin. An inscription on the tag reads 'If the ends justfy the means, what justfies the end?'."
+	icon = 'icons/vore/custom_items_yw.dmi'
+	icon_state = "warden_syndie"
+	armor = list(melee = 60, bullet = 60, laser = 60, energy = 40, bomb = 20, bio = 0, rad = 0)
+
+/obj/item/clothing/head/helmet/warden/hat/ranya
+	name = "Akatsuki Intergalactic Police PMSC warden's hat"
+	desc = "A formal military cap for high-ranking Akatsuki Industries officers. The coat seems to be fitted for a 20 foot tall Shadekin. Reeks of syndicate glory."
+	icon_state = "warden_syndie"
+	armor = list(melee = 60, bullet = 60, laser = 60, energy = 40, bomb = 20, bio = 0, rad = 0)
+	valid_accessory_slots = null

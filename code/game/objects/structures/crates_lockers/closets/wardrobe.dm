@@ -254,6 +254,7 @@
 		/obj/item/clothing/suit/storage/hooded/wintercoat/science/robotics = 2,
 		/obj/item/clothing/head/beret/science/robotics = 2,
 		/obj/item/weapon/storage/backpack/toxins,
+		/obj/item/clothing/suit/storage/toggle/labcoat/neo_robo_coat =2,
 		/obj/item/weapon/storage/backpack/satchel/tox)
 
 /obj/structure/closet/wardrobe/robotics_black/Initialize()

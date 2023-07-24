@@ -41,7 +41,6 @@
 
 
 
-
 //Brig Physician
 /datum/job/brigphys
 	title = "Brig Physician"
@@ -98,3 +97,7 @@
 
 /datum/alt_title/intercept_pilot
 	title = "Interceptor Pilot"
+
+//Sec Officer
+/datum/alt_title/parasec
+	title = "Security Paramedic"

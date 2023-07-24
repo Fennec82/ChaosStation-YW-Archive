@@ -14,6 +14,7 @@
 	em_block = TRUE
 	var/extra_overlay // Icon state of an additional overlay to blend in.
 	var/extra_overlay2 //Tertiary.
+	var/extra_overlay3 //Chaosstation addition - quaternary, required for Fat otietaur to work
 	var/show_species_tail = 0 // If false, do not render species' tail.
 	var/clothing_can_hide = 1 // If true, clothing with HIDETAIL hides it
 	var/desc = "You should not see this..."

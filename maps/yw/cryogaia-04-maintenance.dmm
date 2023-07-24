@@ -6113,7 +6113,7 @@
 	frequency = 1443;
 	level = 3;
 	name = "Distribution and Waste Monitor";
-	sensors = list("mair_in_meter" = "Mixed Air In", "air_sensor" = "Mixed Air Supply Tank", "mair_out_meter" = "Mixed Air Out", "dloop_atm_meter" = "Distribution Loop", "wloop_atm_meter" = "Waste Loop", "wloop_engine_meter" = "Engine Waste")
+	sensors = list("mair_in_meter"="Mixed Air In","air_sensor"="Mixed Air Supply Tank","mair_out_meter"="Mixed Air Out","dloop_atm_meter"="Distribution Loop","wloop_atm_meter"="Waste Loop","wloop_engine_meter"="Engine Waste")
 	},
 /turf/simulated/floor/tiled,
 /area/engineering/atmos/monitoring)
@@ -6567,7 +6567,7 @@
 /obj/machinery/computer/general_air_control{
 	frequency = 1441;
 	name = "Tank Monitor";
-	sensors = list("n2_sensor" = "Nitrogen", "o2_sensor" = "Oxygen", "co2_sensor" = "Carbon Dioxide", "tox_sensor" = "Toxins", "n2o_sensor" = "Nitrous Oxide", "waste_sensor" = "Gas Mix Tank")
+	sensors = list("n2_sensor"="Nitrogen","o2_sensor"="Oxygen","co2_sensor"="Carbon Dioxide","tox_sensor"="Toxins","n2o_sensor"="Nitrous Oxide","waste_sensor"="Gas Mix Tank")
 	},
 /obj/machinery/light{
 	dir = 8
@@ -7673,7 +7673,7 @@
 /area/maintenance/blueserg)
 "ePN" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
-	starts_with = list(/obj/item/weapon/reagent_containers/food/drinks/milk = 6, /obj/item/weapon/storage/fancy/egg_box = 4, /obj/item/weapon/reagent_containers/food/condiment/flour = 7, /obj/item/weapon/reagent_containers/food/condiment/sugar = 2)
+	starts_with = list(/obj/item/weapon/reagent_containers/food/drinks/milk=6,/obj/item/weapon/storage/fancy/egg_box=4,/obj/item/weapon/reagent_containers/food/condiment/flour=7,/obj/item/weapon/reagent_containers/food/condiment/sugar=2)
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
@@ -9663,7 +9663,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/camera/network/command{
-	c_tag = null;
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
@@ -17605,9 +17604,7 @@
 "kxv" = (
 /obj/machinery/atmospherics/omni/mixer{
 	active_power_usage = 7500;
-	tag_east_con = null;
 	tag_north = 2;
-	tag_north_con = null;
 	tag_south = 1;
 	tag_south_con = 0.79;
 	tag_west = 1;
@@ -19168,7 +19165,7 @@
 	input_tag = "o2_in";
 	name = "Oxygen Supply Control";
 	output_tag = "o2_out";
-	sensors = list("o2_sensor" = "Tank")
+	sensors = list("o2_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
@@ -20477,7 +20474,7 @@
 "mih" = (
 /obj/structure/closet/athletic_mixed,
 /obj/item/clothing/shoes/boots/jackboots{
-	armor = list("melee" = 69, "bullet" = 69, "laser" = 69, "energy" = 69, "bomb" = 69, "bio" = 69, "rad" = 69);
+	armor = list("melee"=69,"bullet"=69,"laser"=69,"energy"=69,"bomb"=69,"bio"=69,"rad"=69);
 	desc = "This pair of Jackboots look worn and freshly used. They have several claw markings inside and you can read the initials D and M at the bottom";
 	name = "Dhaeleena's Jackboots"
 	},
@@ -21755,7 +21752,6 @@
 "mWk" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
-	id_tag = null;
 	name = "Laundry";
 	req_access = list()
 	},
@@ -26280,7 +26276,6 @@
 /area/engineering/hallway_lower)
 "pJi" = (
 /obj/machinery/door/airlock/glass{
-	frequency = null;
 	id_tag = "cryostorage_shuttle_berth_hatch";
 	name = "Cryogenic Storage"
 	},
@@ -27138,7 +27133,7 @@
 	input_tag = "n2o_in";
 	name = "Nitrous Oxide Supply Control";
 	output_tag = "n2o_out";
-	sensors = list("n2o_sensor" = "Tank")
+	sensors = list("n2o_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 8
@@ -27418,7 +27413,7 @@
 	name = "Mixed Air Supply Control";
 	output_tag = "air_out";
 	pressure_setting = 2000;
-	sensors = list("air_sensor" = "Tank")
+	sensors = list("air_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 1
@@ -29108,8 +29103,7 @@
 "rxD" = (
 /obj/machinery/door/morgue{
 	dir = 2;
-	name = "Reading Rooms";
-	req_access = null
+	name = "Reading Rooms"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -29588,7 +29582,7 @@
 	input_tag = "waste_in";
 	name = "Gas Mix Tank Control";
 	output_tag = "waste_out";
-	sensors = list("waste_sensor" = "Tank")
+	sensors = list("waste_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -30285,7 +30279,7 @@
 	input_tag = "n2_in";
 	name = "Nitrogen Supply Control";
 	output_tag = "n2_out";
-	sensors = list("n2_sensor" = "Tank")
+	sensors = list("n2_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -36162,7 +36156,7 @@
 	input_tag = "co2_in";
 	name = "Carbon Dioxide Supply Control";
 	output_tag = "co2_out";
-	sensors = list("co2_sensor" = "Tank")
+	sensors = list("co2_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/black{
 	dir = 10
@@ -36257,7 +36251,7 @@
 	input_tag = "tox_in";
 	name = "Phoron Supply Control";
 	output_tag = "tox_out";
-	sensors = list("tox_sensor" = "Tank")
+	sensors = list("tox_sensor"="Tank")
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
@@ -36800,6 +36794,10 @@
 "vRU" = (
 /turf/simulated/wall,
 /area/constructionsite/medical)
+"vRX" = (
+/obj/structure/table/steel,
+/turf/simulated/floor,
+/area/maintenance/starboard)
 "vSu" = (
 /obj/effect/floor_decal/corner/red/full,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -38418,7 +38416,7 @@
 /obj/machinery/vending/cigarette{
 	name = "Cigarette machine";
 	prices = list();
-	products = list(/obj/item/weapon/storage/fancy/cigarettes = 10, /obj/item/weapon/storage/box/matches = 10, /obj/item/weapon/flame/lighter/zippo = 4, /obj/item/clothing/mask/smokable/cigarette/cigar/havana = 2)
+	products = list(/obj/item/weapon/storage/fancy/cigarettes=10,/obj/item/weapon/storage/box/matches=10,/obj/item/weapon/flame/lighter/zippo=4,/obj/item/clothing/mask/smokable/cigarette/cigar/havana=2)
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -39882,7 +39880,6 @@
 "xMV" = (
 /obj/machinery/door/airlock/hatch{
 	icon_state = "door_locked";
-	id_tag = null;
 	locked = 1;
 	name = "AI Core";
 	req_access = newlist();
@@ -40289,7 +40286,10 @@
 /area/maintenance/maintroom6)
 "yaL" = (
 /obj/structure/cable/green,
-/obj/machinery/power/emitter,
+/obj/machinery/power/emitter/antique{
+	desc = "It is a heavy duty industrial laser used for executions by the facility's security detachment.";
+	name = "execution emitter"
+	},
 /turf/simulated/floor/plating,
 /area/security/perma)
 "yaM" = (
@@ -40715,10 +40715,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/lower/aft)
-"ymn" = (
-/obj/structure/table/steel,
-/turf/simulated/floor,
-/area/maintenance/starboard)
 
 (1,1,1) = {"
 qDW
@@ -60685,7 +60681,7 @@ eNq
 whU
 whU
 hIa
-ymn
+vRX
 kpQ
 eNq
 mwy

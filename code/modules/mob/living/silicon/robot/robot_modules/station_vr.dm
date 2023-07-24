@@ -185,8 +185,10 @@
 					"K9 hound" = "k9",
 					"K9 Alternative" = "k92",
 					"Secborg model V-2" = "secborg",
+					"Synth-Valekin" = "SecVale", //Chaosstation addition, ported from Chompstation2
 					"Borgi" = "borgi-sec",
 					"Otieborg" = "oties",
+					"Raptorborg" = "secraptor",
 					"Drake" = "drakesec"
 					)
 	channels = list("Security" = 1)
@@ -201,7 +203,7 @@
 	src.modules += new /obj/item/device/dogborg/boop_module(src) //Boop people on the nose.
 	src.modules += new /obj/item/taperoll/police(src) //Block out crime scenes.
 	src.modules += new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src) //They /are/ a security borg, after all.
-	src.modules += new /obj/item/weapon/dogborg/pounce(src) //Pounce
+//	src.modules += new /obj/item/weapon/dogborg/pounce(src) //Pounce
 	src.modules += new /obj/item/device/dogborg/pounce_module(src) //Pounce shit test
 	src.modules += new /obj/item/weapon/tool/crowbar(src)
 	src.emag 	 = new /obj/item/weapon/gun/energy/laser/mounted(src) //Emag. Not a big problem.
@@ -266,6 +268,8 @@
 					"Medical Hound" = "medihound",
 					"Dark Medical Hound (Static)" = "medihounddark",
 					"Mediborg model V-2" = "vale",
+					"Synth-Valekin" = "vale2", //Chaosstation addition, ported from Chompstation2
+					"Raptorborg" = "medraptor",
 					"Borgi" = "borgi-medi",
 					"Drake" = "drakemed"
 					)
@@ -279,6 +283,8 @@
 	src.modules += new /obj/item/weapon/reagent_containers/glass/beaker/large(src)//For holding the chemicals when the chemist is nice
 	src.modules += new /obj/item/device/sleevemate(src) //Lets them scan people.
 	src.modules += new /obj/item/taperoll/medical //CS edit
+	src.modules += new /obj/item/roller_holder(src) //It's all about that respect!
+	src.modules += new /obj/item/weapon/inflatable_dispenser/robot(src)
 	src.modules += new /obj/item/weapon/gripper/medical(src) //CS edit
 	src.modules += new /obj/item/weapon/shockpaddles/robot/hound(src) //Paws of life
 	src.emag 	 = new /obj/item/weapon/dogborg/pounce(src) //Pounce
@@ -364,7 +370,8 @@
 	src.modules += new /obj/item/weapon/dogborg/swordtail(src)
 	src.modules += new /obj/item/weapon/tool/crowbar(src)
 	src.modules += new /obj/item/device/dogborg/pounce_module(src) //Pounce shit test
-	src.emag     = new /obj/item/weapon/gun/energy/laser/mounted(src)
+	src.modules += new /obj/item/weapon/gun/energy/laser/mounted(src) //CS edit
+	src.emag     = new /obj/item/weapon/gun/energy/pulse_rifle/mounted //Chaosstation edit - ERT gun buffed
 
 	var/datum/matter_synth/water = new /datum/matter_synth(500)
 	water.name = "Water reserves"
@@ -403,6 +410,7 @@
 					"Janihound model V-2" = "J9",
 					"Borgi" = "borgi-jani",
 					"Otieborg" = "otiej",
+					"Raptorborg" = "janiraptor",
 					"Drake" = "drakejanit"
 					)
 	channels = list("Service" = 1)
@@ -490,6 +498,7 @@
 					"Borgi" = "borgi-sci",
 					"SciHound" = "scihound",
 					"SciHoundDark" = "scihounddark",
+					"Raptorborg" = "sciraptor",
 					"Drake" = "drakesci"
 					)
 	channels = list("Science" = 1)
@@ -513,8 +522,21 @@
 	src.modules += new /obj/item/weapon/storage/part_replacer(src)
 	src.modules += new /obj/item/device/robotanalyzer(src)
 	src.modules += new /obj/item/weapon/card/robot(src)
+	src.modules += new /obj/item/roller_holder(src) //It's all about that respect!
+	src.modules += new /obj/item/weapon/inflatable_dispenser/robot(src)
 	src.modules += new /obj/item/weapon/gripper/no_use/organ/robotics(src)
 	src.modules += new /obj/item/weapon/gripper/no_use/mech(src)
+	src.modules += new /obj/item/weapon/surgical/scalpel/cyborg(src) //Surgical tools for borging
+	src.modules += new /obj/item/weapon/surgical/hemostat/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/retractor/cyborg(src)
+	src.modules += new /obj/item/weapon/surgical/circular_saw/cyborg(src)
+	src.modules += new /obj/item/weapon/gripper/no_use/organ(src)
+	src.modules += new /obj/item/weapon/portable_destructive_analyzer(src) //It's all about that respect! [For prefs LMAO, maybe someone dosen't want SciVore mechanics used around them.]
+	src.modules += new /obj/item/weapon/melee/baton/slime/robot(src) //Xenobio gear
+	src.modules += new /obj/item/weapon/gun/energy/taser/xeno/robot(src)
+	src.modules += new /obj/item/device/slime_scanner(src)
+	src.modules += new /obj/item/device/xenoarch_multi_tool(src) //Xenoarch Gear
+	src.modules += new /obj/item/weapon/pickaxe/excavationdrill(src)
 	src.emag = new /obj/item/weapon/hand_tele(src)
 
 	var/datum/matter_synth/water = new /datum/matter_synth(500)
@@ -570,6 +592,7 @@
 					"V2 Engidog" = "thottbot",
 					"EngiHound" = "engihound",
 					"EngiHoundDark" = "engihounddark",
+					"Raptorborg" = "engiraptor",
 					"Drake" = "drakeeng"
 					)
 	channels = list("Engineering" = 1)
@@ -793,6 +816,7 @@
 					"Pinkhound" = "k69",
 					"ServicehoundV2" = "serve2",
 					"ServicehoundV2 Darkmode" = "servedark",
+					"Raptorborg" = "serviraptor",
 					"Drake" = "drakemine"
 					)
 	channels = list("Service" = 1)
@@ -867,6 +891,7 @@
 					"KMine" = "kmine",
 					"CargoHound" = "cargohound",
 					"CargoHoundDark" = "cargohounddark",
+					"Raptorborg" = "mineraptor",
 					"Drake" = "drakemine"
 					)
 	channels = list("Supply" = 1)
@@ -883,7 +908,11 @@
 	src.modules += new /obj/item/weapon/gripper/miner(src)
 	src.modules += new /obj/item/weapon/mining_scanner(src)
 	src.modules += new /obj/item/weapon/dogborg/jaws/small(src)
-	src.emag = new /obj/item/weapon/pickaxe/plasmacutter(src)
+	src.modules += new /obj/item/weapon/pickaxe/plasmacutter(src) //Chaostation edit - plasma cutter in standard loadout
+	src.modules += new /obj/item/weapon/gun/energy/kinetic_accelerator/premiumka(src) //Chaostation edit - pPKA
+	src.modules += new /obj/item/weapon/kinetic_crusher/cyborg(src) //Chaostation edit - PKC
+	src.modules += new /obj/item/resonator/upgraded(src) //Chaostation edit - adv resonater
+	src.modules += new /obj/item/device/geiger(src)//Chaostation edit - Strange rock energy
 	src.emag = new /obj/item/weapon/pickaxe/diamonddrill(src)
 
 	var/datum/matter_synth/water = new /datum/matter_synth(500)
@@ -1009,7 +1038,7 @@
 
 //Chaosstation additions start
 
-//SurgeryHound -Done by Fennec82
+//SurgeryHound -Done by Arrhythmia_V
 /obj/item/weapon/robot_module/surgeryhound
 	name = "SurgeryHound module"
 	channels = list("medical" = 1)
@@ -1020,8 +1049,11 @@
 					"Medical Hound" = "medihound",
 					"Dark Medical Hound (Static)" = "medihounddark",
 					"Mediborg model V-2" = "vale",
+					"Synth-Valekin" = "vale2", //Ported from Chompstation2
+					"Traumahound" = "traumavale",
+					"Raptorborg" = "traumaraptor",
 					"Shara (Unique)" = "shara"
-					) //borgi incompatable with job
+					) //borgi sucks
 
 /obj/item/weapon/robot_module/surgeryhound/New(var/mob/living/silicon/robot/R)
 	src.modules += new /obj/item/weapon/dogborg/jaws/small(src)
@@ -1033,6 +1065,8 @@
 	src.modules += new /obj/item/device/sleevemate(src) //Lets them scan people.
 	src.modules += new /obj/item/weapon/shockpaddles/robot/hound(src) //Paws of life
 	src.modules += new /obj/item/taperoll/medical
+	src.modules += new /obj/item/roller_holder(src) //It's all about that respect!
+	src.modules += new /obj/item/weapon/inflatable_dispenser/robot(src)
 	src.modules += new /obj/item/weapon/reagent_containers/dropper(src) // Allows surgeon borg to fix necrosis
 	src.modules += new /obj/item/weapon/surgical/scalpel/cyborg(src)
 	src.modules += new /obj/item/weapon/surgical/hemostat/cyborg(src)
@@ -1178,6 +1212,7 @@
 					"Medical Hound" = "medihound",
 					"Dark Medical Hound (Static)" = "medihounddark",
 					"Mediborg model V-2" = "vale", //Removes borgi option cause I hate it
+					"Synth-Valekin" = "vale2", //Ported from Chompstation2
 					"Drake" = "drakemed"
 					)
 
@@ -1189,18 +1224,21 @@
 	src.modules += new /obj/item/weapon/reagent_containers/syringe(src) //In case the chemist is nice!
 	src.modules += new /obj/item/weapon/reagent_containers/glass/beaker/large(src)//For holding the chemicals when the chemist is nice
 	src.modules += new /obj/item/device/sleevemate(src) //Lets them scan people.
-	src.modules += new /obj/item/taperoll/medical //CS edit
-	src.modules += new /obj/item/weapon/gripper/medical(src) //CS edit
+	src.modules += new /obj/item/taperoll/medical
+	src.modules += new /obj/item/roller_holder(src) //It's all about that respect!
+	src.modules += new /obj/item/weapon/inflatable_dispenser/robot(src)
+	src.modules += new /obj/item/weapon/gripper/medical(src)
 	src.modules += new /obj/item/weapon/shockpaddles/robot/hound(src) //Paws of life
 	src.modules += new /obj/item/weapon/dogborg/pounce(src) //Pounce. Comes by default here
-	src.emag = new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src)//Emag, not a big problem
+	src.modules += new /obj/item/weapon/gun/energy/taser/mounted/cyborg(src) //Croud control
+	src.emag = new /obj/item/weapon/gun/energy/laser/mounted(src)//Emag, not a big problem
 
 	var/datum/matter_synth/medicine = new /datum/matter_synth/medicine(20000) //Extra reserves
 	synths += medicine
 
 	var/obj/item/stack/medical/advanced/clotting/C = new (src)
 	C.uses_charge = 1
-	C.charge_costs = list(1000)
+	C.charge_costs = list(100)
 	C.synths = list(medicine)
 	src.modules += C
 

@@ -584,3 +584,44 @@
 	extra_overlay = "rat_markings"
 	clip_mask_state = "taur_clip_mask_rat"
 	icon_sprite_tag = "rat"
+
+
+// Post-fork Virgo ports here!
+/*
+/datum/sprite_accessory/tail/taur/wolf/wolf_2c_wag
+	name = "Wolf 3-color (Taur, vwag)"
+	icon_state = "wolf_s"
+	extra_overlay = "wolf_markings"
+	extra_overlay2 = "wolf_markings_2"
+	ani_state = "fatwolf_s"
+	extra_overlay_w = "fatwolf_markings"
+	extra_overlay2_w = "wolf_markings_2" */  //Broken
+
+/datum/sprite_accessory/tail/taur/lizard/fatlizard_2c
+	name = "Fat Lizard (Taur, dual-color)"
+	icon_state = "fatlizard_s"
+	extra_overlay= "fatlizard_markings"
+
+/datum/sprite_accessory/tail/taur/lizard/fatsynthlizard
+	name = "Fat SynthLizard dual-color (Taur)"
+	icon_state = "fatsynthlizard_s"
+	extra_overlay = "fatsynthlizard_markings"
+	extra_overlay2 = "fatsynthlizard_glow"
+
+/datum/sprite_accessory/tail/taur/feline/fatfeline_2c
+	name = "Fat Feline 3-color (Taur)"
+	icon_state = "fatfeline_s"
+	extra_overlay = "fatfeline_markings"
+	extra_overlay2 = "feline_markings_2"
+
+/datum/sprite_accessory/tail/taur/feline/fatsynthfeline
+	name = "Fat SynthFeline dual-color (Taur)"
+	icon_state = "fatsynthfeline_s"
+	extra_overlay = "fatsynthfeline_markings"
+	extra_overlay2 = "fatsynthfeline_glow"
+
+/datum/sprite_accessory/tail/taur/ch_fatdrake
+	name = "Drake (Fat Taur dual-color)"
+	icon_state = "fatdrake_s"
+	extra_overlay = "fatdrake_markings"
+	icon_sprite_tag = "drake"

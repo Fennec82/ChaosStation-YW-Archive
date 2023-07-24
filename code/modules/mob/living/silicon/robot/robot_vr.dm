@@ -157,6 +157,8 @@
 	if(wideborg == TRUE)
 		if(icontype == "Drake") // Why, Why can't we have normal nice things
 			icon = 'icons/mob/drakeborg/drakeborg_vr.dmi'
+		else if(icontype == "Raptorborg") //Added for raptor sprites
+			icon = 'icons/mob/raptorborg/raptor.dmi'
 		/*YW EDIT
 		else
 			icon = icon = wideborg_dept
