@@ -1,6 +1,6 @@
 @echo off
 
-TITLE SS13 Build Script (2023 world server)
+TITLE SS13 Build Script
 
 IF DEFINED ProgramFiles(x86) (
 	SET "_dmexec=C:\Program Files (x86)\BYOND\bin\dm.exe"
@@ -20,3 +20,5 @@ if exist "%_dmexec%" (
 
 :end
 pause
+
+REM This was shamelessly stolen/copied from the World Server Redux. All credit for the orignal script goes to them.
