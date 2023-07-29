@@ -1,0 +1,7 @@
+Please, run map merge. It's located in the tools folder under a folder named "mapmerge2". 
+
+Running this can auto-fix some errors and help prevent merge issues and BS Github actions build fails.
+
+Sincerely,
+
+-Arrhythmia_V
